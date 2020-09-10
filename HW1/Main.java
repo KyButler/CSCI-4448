@@ -1,4 +1,5 @@
 import java.util.Scanner; // for user input
+import Zoo.Zoo;
 
 public class Main {
   public static void main(String[] args) {
@@ -7,7 +8,8 @@ public class Main {
     // print out introduction as well as instruction
     System.out.println("Welcome to the Denver Zoo! Please, enter the amount of days: ");
     // retrieved from https://www.tutorialspoint.com/java/util/scanner_close.htm
-    System.out.println("you typed " + scanner.nextLine());
+    String userinput = scanner.nextLine();
+    int days = Integer.parseInt(userinput);
     // close scanner
     scanner.close();
 
@@ -15,15 +17,18 @@ public class Main {
 
     Zoo denver = new Zoo();
 
-    denver.wakeUpRoutine();
+    denver.go(days);
 
     return;
   }
 }
 
 /**
- * Abstraction: - Program asks for input on amount of days - Zookeeper object
- * will arrive at zoo each day and execute tasks: - Zookeeper class has wake
+ * Abstraction: 
+ * 
+ * - Program asks for input on amount of days ✔
+ * 
+ * - Zookeeper object will arrive at zoo each day and execute tasks: - Zookeeper class has wake
  * animals, roll call animals, feed animals, exercise the animals, tell animals
  * to sleep - Once that's done, the zookeeper will leave (maybe de-allocate
  * memory? not sure rn what needs to be done)
