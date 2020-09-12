@@ -8,4 +8,8 @@ public class Elephant extends Pachyderm {
   public Elephant(String name) {
     super(name + " the Elephant");
   }
+
+  public void exercise() {
+    System.out.println(this.getName() + " splashes around with their trunk!");
+  }
 }
