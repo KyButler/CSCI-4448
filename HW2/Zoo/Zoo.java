@@ -6,6 +6,9 @@ import Animals.Feline.*;
 import Animals.Canine.*;
 import Animals.Reptile.*;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 public class Zoo {
   // here are all of the animals
   
@@ -18,49 +21,51 @@ public class Zoo {
   // have default makeNoise(), and some don't allow for this custom makeNoise() just
   // to show off the options when making a strategy.
 
+  private Collection<Animal> Animals = new ArrayList<Animal>();
+  private ZooEmployee employee;
+
+  public Zoo () {
+    employee = new Zookeeper("Jeff");
+
+    Animals.add(new Elephant("Ellie"));
+    Animals.add(new Elephant("Edward"));
+    Animals.add(new Hippo("Hippy"));
+    Animals.add(new Hippo("Harold", new HippoNoiseStrategy()));
+    Animals.add(new Rhino("Renee"));
+    Animals.add(new Rhino("Rex"));
   
-  Animal elephant = new Elephant("Ellie");
-  Animal elephant2 = new Elephant("Edward");
-  Animal hippo = new Hippo("Hippy");
-  Animal hippo2 = new Hippo("Harold", new HippoNoiseStrategy());
-  Animal rhino = new Rhino("Renee");
-  Animal rhino2 = new Rhino("Rex");
-
-  Animal cat = new Cat("Candy");
-  Animal cat2 = new Cat("Conan", new MeowNoiseStrategy());
-  Animal lion = new Lion("Lionel");
-  Animal lion2 = new Lion("Leah", new RoarNoiseStrategy());
-  Animal tiger = new Tiger("Turbo");
-  Animal tiger2 = new Tiger("Tina", new GwraaNoiseStrategy());
-
-  Animal dog = new Dog("Daniel");
-  Animal dog2 = new Dog("Danielle", new WoofNoiseStrategy());
-  Animal wolf = new Wolf("Weston");
-  Animal wolf2 = new Wolf("Wanda", new HowlNoiseStrategy());
-
-  Animal snake = new Snake("Samantha");
-  Animal snake2 = new Snake("Scott", new SlitherNoiseStrategy());
-  Animal turtle = new Turtle("Teresa");
-  Animal turtle2 = new Turtle("Trent", new SnapNoiseStrategy());
-
-  Animal[] animals = {elephant, elephant2, hippo, hippo2, rhino, rhino2, cat, cat2, lion, lion2, tiger, tiger2, dog, dog2, wolf, wolf2, snake, snake2, turtle, turtle2};
-
-  ZooEmployee employee = new Zookeeper("Jeff");
+    Animals.add(new Cat("Candy"));
+    Animals.add(new Cat("Conan", new MeowNoiseStrategy()));
+    Animals.add(new Lion("Lionel"));
+    Animals.add(new Lion("Leah", new RoarNoiseStrategy()));
+    Animals.add(new Tiger("Turbo"));
+    Animals.add(new Tiger("Tina", new GwraaNoiseStrategy()));
+  
+    Animals.add(new Dog("Daniel"));
+    Animals.add(new Dog("Danielle", new WoofNoiseStrategy()));
+    Animals.add(new Wolf("Weston"));
+    Animals.add(new Wolf("Wanda", new HowlNoiseStrategy()));
+  
+    Animals.add(new Snake("Samantha"));
+    Animals.add(new Snake("Scott", new SlitherNoiseStrategy()));
+    Animals.add(new Turtle("Teresa"));
+    Animals.add(new Turtle("Trent", new SnapNoiseStrategy()));
+  }
 
   public void go(int days) {
     for (int i = 0; i < days; i++){
       System.out.println("\nIt is Day " + (i+1) + ".\n");
       employee.arrive();
       System.out.println("\n");
-      // employee.wakeAnimals(animals);
+      employee.wakeAnimals(Animals);
       System.out.println("\n");
-      employee.rollCallAnimals(animals);
+      employee.rollCallAnimals(Animals);
       System.out.println("\n");
-      // employee.feedAnimals(animals);
+      employee.feedAnimals(Animals);
       System.out.println("\n");
-      // employee.exerciseAnimals(animals);
+      employee.exerciseAnimals(Animals);
       System.out.println("\n");
-      // employee.tellAnimalsToSleep(animals);
+      employee.tellAnimalsToSleep(Animals);
       System.out.println("\n");
       employee.leave();
     }
