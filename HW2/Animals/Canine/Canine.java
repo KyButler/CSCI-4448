@@ -1,14 +1,15 @@
 package Animals.Canine;
 
 import Animals.Animal;
+import Animals.NoiseStrategy;
 
 public abstract class Canine extends Animal {
   public Canine(String name) {
-    super(name);
+    super(name, new BarkNoiseStrategy());
   }
 
-  public void makeNoise() {
-    System.out.println("Bark!");
+  public Canine(String name, NoiseStrategy noiseStrategy){ 
+    super(name, noiseStrategy);
   }
 
   public void eat() {

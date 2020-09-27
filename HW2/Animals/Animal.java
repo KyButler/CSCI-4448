@@ -8,14 +8,17 @@ public abstract class Animal {
   // class function, hiding it from other classes! -->
   private String name;
 
-  // no default constructor for Animal written, as each subclass defines it's own
-  // name to use in place.
-  public Animal() {
-  };
+  private NoiseStrategy noiseStrategy;
 
   // this is the constructor for an Animal with a string as a name
   public Animal(String name) {
     this.name = name;
+    this.noiseStrategy = new NoiseStrategyDefault();
+  }
+
+  public Animal(String name, NoiseStrategy noiseStrategy){
+    this.name = name;
+    this.noiseStrategy = noiseStrategy;
   }
 
   // getter for private name string.
@@ -29,7 +32,7 @@ public abstract class Animal {
   }
 
   public void makeNoise() { // for the rollcall
-    System.out.println("RAWR!");
+    noiseStrategy.makeNoise();
   }
 
   public void eat() {

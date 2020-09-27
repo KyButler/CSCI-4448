@@ -1,15 +1,17 @@
 package Animals.Pachyderm;
 
 import Animals.Animal;
+import Animals.NoiseStrategy;
+
 import java.util.Random;
 
 public abstract class Pachyderm extends Animal {
   public Pachyderm(String name) {
-    super(name);
+    super(name, new TrumpetNoiseStrategy());
   }
 
-  public void makeNoise() {
-    System.out.println("<trumpet noise ensues>");
+  public Pachyderm(String name, NoiseStrategy noiseStrategy) {
+    super(name, noiseStrategy);
   }
 
   public void eat() {

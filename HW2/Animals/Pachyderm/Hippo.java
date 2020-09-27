@@ -1,5 +1,7 @@
 package Animals.Pachyderm;
 
+import Animals.NoiseStrategy;
+
 public class Hippo extends Pachyderm {
   public Hippo() {
     super("Hippo the Hippo");
@@ -9,7 +11,7 @@ public class Hippo extends Pachyderm {
     super(name + " the Hippo");
   }
 
-  public void makeNoise() {
-    System.out.println("<excited hippo noise>");
+  public Hippo(String name, NoiseStrategy noiseStrategy) {
+    super(name + " the Hippo", noiseStrategy);
   }
 }

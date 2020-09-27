@@ -1,5 +1,7 @@
 package Animals.Reptile;
 
+import Animals.NoiseStrategy;
+
 public class Turtle extends Reptile { 
   public Turtle() {
     super ("Turtle the Turtle");
@@ -9,8 +11,8 @@ public class Turtle extends Reptile {
     super(name + " the Turtle");
   }
 
-  public void makeNoise() {
-    System.out.println("Snap snap!");
+  public Turtle(String name, NoiseStrategy noiseStrategy){
+    super(name + " the Turtle", noiseStrategy);
   }
 
   public void eat() {

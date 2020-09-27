@@ -1,15 +1,17 @@
 package Animals.Feline;
 
 import Animals.Animal;
+import Animals.NoiseStrategy;
+
 import java.util.Random;
 
 public abstract class Feline extends Animal {
   public Feline(String name) {
-    super(name);
+    super(name, new PurrNoiseStrategy());
   }
 
-  public void makeNoise() {
-    System.out.println("Purrr!");
+  public Feline(String name, NoiseStrategy noiseStrategy) {
+    super(name, noiseStrategy);
   }
 
   public void eat() {

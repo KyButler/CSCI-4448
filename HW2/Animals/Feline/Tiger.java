@@ -1,5 +1,7 @@
 package Animals.Feline;
 
+import Animals.NoiseStrategy;
+
 public class Tiger extends Feline {
   public Tiger() {
     super("Tiger the Tiger");
@@ -9,8 +11,8 @@ public class Tiger extends Feline {
     super(name + " the Tiger");
   }
 
-  public void makeNoise() {
-    System.out.println("Gwraaaaa!");
+  public Tiger(String name, NoiseStrategy noiseStrategy) {
+    super(name + " the Tiger", noiseStrategy);
   }
 
   public void exercise() {

@@ -2,17 +2,19 @@ package Animals.Canine;
 
 import java.util.Random;
 
+import Animals.NoiseStrategy;
+
 public class Dog extends Canine {
   public Dog() {
     super("Dog the Dog");
   }
 
   public Dog(final String name) {
-    super(name + " the Dog");
+    super(name + " the Dog", new WoofNoiseStrategy());
   }
 
-  public void makeNoise() {
-    System.out.println("Woof!");
+  public Dog(String name, NoiseStrategy noiseStrategy) {
+    super(name + " the Dog", noiseStrategy);
   }
 
   public void eat() {
