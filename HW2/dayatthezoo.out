@@ -1,0 +1,1529 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Kyran\Documents\Kyran's Stuff\Github\CSCI-4448>  & 'c:\Users\Kyran\.vscode\extensions\vscjava.vscode-java-debug-0.28.0\scripts\launcher.bat' 'C:\Program Files\Java\jdk-14.0.2\bin\java.exe' '--enable-preview' '-XX:+ShowCodeDetailsInExceptionMessages' '-Dfile.encoding=UTF-8' '-cp' 'C:\Users\Kyran\AppData\Roaming\Code\User\workspaceStorage\07ff20be32c16a4949915514d9c80324\redhat.java\jdt_ws\CSCI-4448_77b8a6c1\bin' 'Main'
+Welcome to the Denver Zoo! Please, enter the amount of days: 
+7
+
+It is Day 1.
+
+Jeff the Zookeeper is arriving at the zoo.
+
+
+Jeff the Zookeeper is waking up Ellie the Elephant 
+Ellie the Elephant just woke up!
+Jeff the Zookeeper is waking up Edward the Elephant
+Edward the Elephant just woke up!
+Jeff the Zookeeper is waking up Hippy the Hippo    
+Hippy the Hippo just woke up!
+Jeff the Zookeeper is waking up Harold the Hippo   
+Harold the Hippo just woke up!
+Jeff the Zookeeper is waking up Renee the Rhino    
+Renee the Rhino just woke up!
+Jeff the Zookeeper is waking up Rex the Rhino      
+Rex the Rhino just woke up!
+Jeff the Zookeeper is waking up Candy the Cat      
+Candy the Cat just woke up!
+Jeff the Zookeeper is waking up Conan the Cat      
+Conan the Cat just woke up!
+Jeff the Zookeeper is waking up Lionel the Lion    
+Lionel the Lion just woke up!
+Jeff the Zookeeper is waking up Leah the Lion      
+Leah the Lion just woke up!
+Jeff the Zookeeper is waking up Turbo the Tiger
+Turbo the Tiger just woke up!
+Jeff the Zookeeper is waking up Tina the Tiger
+Tina the Tiger just woke up!
+Jeff the Zookeeper is waking up Daniel the Dog
+Daniel the Dog just woke up!
+Jeff the Zookeeper is waking up Danielle the Dog
+Danielle the Dog just woke up!
+Jeff the Zookeeper is waking up Weston the Wolf
+Weston the Wolf just woke up!
+Jeff the Zookeeper is waking up Wanda the Wolf
+Wanda the Wolf just woke up!
+Jeff the Zookeeper is waking up Samantha the Snake
+Samantha the Snake just woke up!
+Jeff the Zookeeper is waking up Scott the Snake
+Scott the Snake just woke up!
+Jeff the Zookeeper is waking up Teresa the Turtle
+Teresa the Turtle just woke up!
+Jeff the Zookeeper is waking up Trent the Turtle
+Trent the Turtle just woke up!
+
+
+Jeff the Zookeeper calls out for Ellie the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Edward the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Hippy the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Harold the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Renee the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Rex the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Candy the Cat
+Meow!
+Jeff the Zookeeper calls out for Conan the Cat
+Meow!
+Jeff the Zookeeper calls out for Lionel the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Leah the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Turbo the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Tina the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Daniel the Dog
+Woof!
+Jeff the Zookeeper calls out for Danielle the Dog
+Woof!
+Jeff the Zookeeper calls out for Weston the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Wanda the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Samantha the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Scott the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Teresa the Turtle
+Snap snap!
+Jeff the Zookeeper calls out for Trent the Turtle
+Snap snap!
+
+
+Jeff the Zookeeper feeds Ellie the Elephant
+Ellie the Elephant ate their grass!
+Jeff the Zookeeper feeds Edward the Elephant
+Edward the Elephant ate their grass!
+Jeff the Zookeeper feeds Hippy the Hippo
+Hippy the Hippo ate their grass!
+Jeff the Zookeeper feeds Harold the Hippo
+Harold the Hippo ate their grass!
+Jeff the Zookeeper feeds Renee the Rhino
+Renee the Rhino ate their grass!
+Jeff the Zookeeper feeds Rex the Rhino
+Rex the Rhino ate their grass!
+Jeff the Zookeeper feeds Candy the Cat
+Candy the Cat ate their fish!
+Jeff the Zookeeper feeds Conan the Cat
+Conan the Cat ate their fish!
+Jeff the Zookeeper feeds Lionel the Lion
+Lionel the Lion ate their fish!
+Jeff the Zookeeper feeds Leah the Lion
+Leah the Lion ate their fish!
+Jeff the Zookeeper feeds Turbo the Tiger
+Turbo the Tiger ate their fish!
+Jeff the Zookeeper feeds Tina the Tiger
+Tina the Tiger ate their fish!
+Jeff the Zookeeper feeds Daniel the Dog
+Daniel the Dog eats dog food!
+Jeff the Zookeeper feeds Danielle the Dog
+Danielle the Dog eats dog food!
+Jeff the Zookeeper feeds Weston the Wolf
+Weston the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Wanda the Wolf
+Wanda the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Samantha the Snake
+Samantha the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Scott the Snake
+Scott the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Teresa the Turtle
+Teresa the Turtle eats their lettuce!
+Jeff the Zookeeper feeds Trent the Turtle
+Trent the Turtle eats their lettuce!
+
+
+Jeff the Zookeeper goes to exercise with Ellie the Elephant
+Ellie the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Edward the Elephant
+Edward the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Hippy the Hippo
+Hippy the Hippo splashes around in water!
+Jeff the Zookeeper goes to exercise with Harold the Hippo
+Harold the Hippo splashes around in water!
+Jeff the Zookeeper goes to exercise with Renee the Rhino
+Renee the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Rex the Rhino
+Rex the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Candy the Cat
+Candy the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Conan the Cat
+Conan the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Lionel the Lion
+Lionel the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Leah the Lion
+Leah the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Turbo the Tiger
+Turbo the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Tina the Tiger
+Tina the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Daniel the Dog
+Daniel the Dog dug a hole!
+Jeff the Zookeeper goes to exercise with Danielle the Dog
+Danielle the Dog played fetch!
+Jeff the Zookeeper goes to exercise with Weston the Wolf
+Weston the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Wanda the Wolf
+Wanda the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Samantha the Snake
+Samantha the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Scott the Snake
+Scott the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Teresa the Turtle
+Teresa the Turtle wins a race against a rabbit!
+Jeff the Zookeeper goes to exercise with Trent the Turtle
+Trent the Turtle wins a race against a rabbit!
+
+
+Jeff the Zookeeper tells Ellie the Elephant to sleep.
+Ellie the Elephant is going to bed.
+Jeff the Zookeeper tells Edward the Elephant to sleep.
+Edward the Elephant is going to bed.
+Jeff the Zookeeper tells Hippy the Hippo to sleep.
+Hippy the Hippo is going to bed.
+Jeff the Zookeeper tells Harold the Hippo to sleep.
+Harold the Hippo is going to bed.
+Jeff the Zookeeper tells Renee the Rhino to sleep.
+Renee the Rhino is going to bed.
+Jeff the Zookeeper tells Rex the Rhino to sleep.
+Rex the Rhino is going to bed.
+Jeff the Zookeeper tells Candy the Cat to sleep.
+Candy the Cat is going to bed.
+Jeff the Zookeeper tells Conan the Cat to sleep.
+Meow!
+Jeff the Zookeeper tells Lionel the Lion to sleep.
+ROAAAR!
+Jeff the Zookeeper tells Leah the Lion to sleep.
+Leah the Lion is going to bed.
+Jeff the Zookeeper tells Turbo the Tiger to sleep.
+Turbo the Tiger is going to bed.
+Jeff the Zookeeper tells Tina the Tiger to sleep.
+Gwraaaaa!
+Jeff the Zookeeper tells Daniel the Dog to sleep.
+Daniel the Dog is going to bed.
+Jeff the Zookeeper tells Danielle the Dog to sleep.
+Danielle the Dog is going to bed.
+Jeff the Zookeeper tells Weston the Wolf to sleep.
+Weston the Wolf is going to bed.
+Jeff the Zookeeper tells Wanda the Wolf to sleep.
+Wanda the Wolf is going to bed.
+Jeff the Zookeeper tells Samantha the Snake to sleep.
+Samantha the Snake is going to bed.
+Jeff the Zookeeper tells Scott the Snake to sleep.
+Scott the Snake is going to bed.
+Jeff the Zookeeper tells Teresa the Turtle to sleep.
+Teresa the Turtle is going to bed.
+Jeff the Zookeeper tells Trent the Turtle to sleep.
+Trent the Turtle is going to bed.
+
+
+Jeff the Zookeeper is leaving the zoo.
+
+It is Day 2.
+
+Jeff the Zookeeper is arriving at the zoo.
+
+
+Jeff the Zookeeper is waking up Ellie the Elephant
+Ellie the Elephant just woke up!
+Jeff the Zookeeper is waking up Edward the Elephant
+Edward the Elephant just woke up!
+Jeff the Zookeeper is waking up Hippy the Hippo
+Hippy the Hippo just woke up!
+Jeff the Zookeeper is waking up Harold the Hippo
+Harold the Hippo just woke up!
+Jeff the Zookeeper is waking up Renee the Rhino
+Renee the Rhino just woke up!
+Jeff the Zookeeper is waking up Rex the Rhino
+Rex the Rhino just woke up!
+Jeff the Zookeeper is waking up Candy the Cat
+Candy the Cat just woke up!
+Jeff the Zookeeper is waking up Conan the Cat
+Conan the Cat just woke up!
+Jeff the Zookeeper is waking up Lionel the Lion
+Lionel the Lion just woke up!
+Jeff the Zookeeper is waking up Leah the Lion
+Leah the Lion just woke up!
+Jeff the Zookeeper is waking up Turbo the Tiger
+Turbo the Tiger just woke up!
+Jeff the Zookeeper is waking up Tina the Tiger
+Tina the Tiger just woke up!
+Jeff the Zookeeper is waking up Daniel the Dog
+Daniel the Dog just woke up!
+Jeff the Zookeeper is waking up Danielle the Dog
+Danielle the Dog just woke up!
+Jeff the Zookeeper is waking up Weston the Wolf
+Weston the Wolf just woke up!
+Jeff the Zookeeper is waking up Wanda the Wolf
+Wanda the Wolf just woke up!
+Jeff the Zookeeper is waking up Samantha the Snake
+Samantha the Snake just woke up!
+Jeff the Zookeeper is waking up Scott the Snake
+Scott the Snake just woke up!
+Jeff the Zookeeper is waking up Teresa the Turtle
+Teresa the Turtle just woke up!
+Jeff the Zookeeper is waking up Trent the Turtle
+Trent the Turtle just woke up!
+
+
+Jeff the Zookeeper calls out for Ellie the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Edward the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Hippy the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Harold the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Renee the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Rex the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Candy the Cat
+Meow!
+Jeff the Zookeeper calls out for Conan the Cat
+Meow!
+Jeff the Zookeeper calls out for Lionel the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Leah the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Turbo the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Tina the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Daniel the Dog
+Woof!
+Jeff the Zookeeper calls out for Danielle the Dog
+Woof!
+Jeff the Zookeeper calls out for Weston the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Wanda the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Samantha the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Scott the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Teresa the Turtle
+Snap snap!
+Jeff the Zookeeper calls out for Trent the Turtle
+Snap snap!
+
+
+Jeff the Zookeeper feeds Ellie the Elephant
+Ellie the Elephant ate their grass!
+Jeff the Zookeeper feeds Edward the Elephant
+Edward the Elephant ate their grass!
+Jeff the Zookeeper feeds Hippy the Hippo
+Hippy the Hippo ate their grass!
+Jeff the Zookeeper feeds Harold the Hippo
+Harold the Hippo ate their grass!
+Jeff the Zookeeper feeds Renee the Rhino
+Renee the Rhino ate their grass!
+Jeff the Zookeeper feeds Rex the Rhino
+Rex the Rhino ate their grass!
+Jeff the Zookeeper feeds Candy the Cat
+Candy the Cat ate their fish!
+Jeff the Zookeeper feeds Conan the Cat
+Conan the Cat ate their fish!
+Jeff the Zookeeper feeds Lionel the Lion
+Lionel the Lion ate their fish!
+Jeff the Zookeeper feeds Leah the Lion
+Leah the Lion ate their fish!
+Jeff the Zookeeper feeds Turbo the Tiger
+Turbo the Tiger ate their fish!
+Jeff the Zookeeper feeds Tina the Tiger
+Tina the Tiger ate their fish!
+Jeff the Zookeeper feeds Daniel the Dog
+Daniel the Dog eats dog food!
+Jeff the Zookeeper feeds Danielle the Dog
+Danielle the Dog eats dog food!
+Jeff the Zookeeper feeds Weston the Wolf
+Weston the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Wanda the Wolf
+Wanda the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Samantha the Snake
+Samantha the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Scott the Snake
+Scott the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Teresa the Turtle
+Teresa the Turtle eats their lettuce!
+Jeff the Zookeeper feeds Trent the Turtle
+Trent the Turtle eats their lettuce!
+
+
+Jeff the Zookeeper goes to exercise with Ellie the Elephant
+Ellie the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Edward the Elephant
+Edward the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Hippy the Hippo
+Hippy the Hippo splashes around in water!
+Jeff the Zookeeper goes to exercise with Harold the Hippo
+Harold the Hippo CHAAARGED, RUN AWAAAAAAAAY!
+Jeff the Zookeeper goes to exercise with Renee the Rhino
+Renee the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Rex the Rhino
+Rex the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Candy the Cat
+Candy the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Conan the Cat
+Conan the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Lionel the Lion
+Lionel the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Leah the Lion
+Leah the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Turbo the Tiger
+Turbo the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Tina the Tiger
+Tina the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Daniel the Dog
+Daniel the Dog dug a hole!
+Jeff the Zookeeper goes to exercise with Danielle the Dog
+Danielle the Dog played fetch!
+Jeff the Zookeeper goes to exercise with Weston the Wolf
+Weston the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Wanda the Wolf
+Wanda the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Samantha the Snake
+Samantha the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Scott the Snake
+Scott the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Teresa the Turtle
+Teresa the Turtle wins a race against a rabbit!
+Jeff the Zookeeper goes to exercise with Trent the Turtle
+Trent the Turtle wins a race against a rabbit!
+
+
+Jeff the Zookeeper tells Ellie the Elephant to sleep.
+Ellie the Elephant is going to bed.
+Jeff the Zookeeper tells Edward the Elephant to sleep.
+Edward the Elephant is going to bed.
+Jeff the Zookeeper tells Hippy the Hippo to sleep.
+Hippy the Hippo is going to bed.
+Jeff the Zookeeper tells Harold the Hippo to sleep.
+Harold the Hippo is going to bed.
+Jeff the Zookeeper tells Renee the Rhino to sleep.
+Renee the Rhino is going to bed.
+Jeff the Zookeeper tells Rex the Rhino to sleep.
+Rex the Rhino is going to bed.
+Jeff the Zookeeper tells Candy the Cat to sleep.
+Candy the Cat is going to bed.
+Jeff the Zookeeper tells Conan the Cat to sleep.
+Meow!
+Jeff the Zookeeper tells Lionel the Lion to sleep.
+Lionel the Lion is going to bed.
+Jeff the Zookeeper tells Leah the Lion to sleep.
+Leah the Lion is going to bed.
+Jeff the Zookeeper tells Turbo the Tiger to sleep.
+Turbo the Tiger runs around restlessly!
+Jeff the Zookeeper tells Tina the Tiger to sleep.
+Gwraaaaa!
+Jeff the Zookeeper tells Daniel the Dog to sleep.
+Daniel the Dog is going to bed.
+Jeff the Zookeeper tells Danielle the Dog to sleep.
+Danielle the Dog is going to bed.
+Jeff the Zookeeper tells Weston the Wolf to sleep.
+Weston the Wolf is going to bed.
+Jeff the Zookeeper tells Wanda the Wolf to sleep.
+Wanda the Wolf is going to bed.
+Jeff the Zookeeper tells Samantha the Snake to sleep.
+Samantha the Snake is going to bed.
+Jeff the Zookeeper tells Scott the Snake to sleep.
+Scott the Snake is going to bed.
+Jeff the Zookeeper tells Teresa the Turtle to sleep.
+Teresa the Turtle is going to bed.
+Jeff the Zookeeper tells Trent the Turtle to sleep.
+Trent the Turtle is going to bed.
+
+
+Jeff the Zookeeper is leaving the zoo.
+
+It is Day 3.
+
+Jeff the Zookeeper is arriving at the zoo.
+
+
+Jeff the Zookeeper is waking up Ellie the Elephant
+Ellie the Elephant just woke up!
+Jeff the Zookeeper is waking up Edward the Elephant
+Edward the Elephant just woke up!
+Jeff the Zookeeper is waking up Hippy the Hippo
+Hippy the Hippo just woke up!
+Jeff the Zookeeper is waking up Harold the Hippo
+Harold the Hippo just woke up!
+Jeff the Zookeeper is waking up Renee the Rhino
+Renee the Rhino just woke up!
+Jeff the Zookeeper is waking up Rex the Rhino
+Rex the Rhino just woke up!
+Jeff the Zookeeper is waking up Candy the Cat
+Candy the Cat just woke up!
+Jeff the Zookeeper is waking up Conan the Cat
+Conan the Cat just woke up!
+Jeff the Zookeeper is waking up Lionel the Lion
+Lionel the Lion just woke up!
+Jeff the Zookeeper is waking up Leah the Lion
+Leah the Lion just woke up!
+Jeff the Zookeeper is waking up Turbo the Tiger
+Turbo the Tiger just woke up!
+Jeff the Zookeeper is waking up Tina the Tiger
+Tina the Tiger just woke up!
+Jeff the Zookeeper is waking up Daniel the Dog
+Daniel the Dog just woke up!
+Jeff the Zookeeper is waking up Danielle the Dog
+Danielle the Dog just woke up!
+Jeff the Zookeeper is waking up Weston the Wolf
+Weston the Wolf just woke up!
+Jeff the Zookeeper is waking up Wanda the Wolf
+Wanda the Wolf just woke up!
+Jeff the Zookeeper is waking up Samantha the Snake
+Samantha the Snake just woke up!
+Jeff the Zookeeper is waking up Scott the Snake
+Scott the Snake just woke up!
+Jeff the Zookeeper is waking up Teresa the Turtle
+Teresa the Turtle just woke up!
+Jeff the Zookeeper is waking up Trent the Turtle
+Trent the Turtle just woke up!
+
+
+Jeff the Zookeeper calls out for Ellie the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Edward the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Hippy the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Harold the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Renee the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Rex the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Candy the Cat
+Meow!
+Jeff the Zookeeper calls out for Conan the Cat
+Meow!
+Jeff the Zookeeper calls out for Lionel the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Leah the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Turbo the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Tina the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Daniel the Dog
+Woof!
+Jeff the Zookeeper calls out for Danielle the Dog
+Woof!
+Jeff the Zookeeper calls out for Weston the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Wanda the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Samantha the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Scott the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Teresa the Turtle
+Snap snap!
+Jeff the Zookeeper calls out for Trent the Turtle
+Snap snap!
+
+
+Jeff the Zookeeper feeds Ellie the Elephant
+Ellie the Elephant ate their grass!
+Jeff the Zookeeper feeds Edward the Elephant
+Edward the Elephant ate their grass!
+Jeff the Zookeeper feeds Hippy the Hippo
+Hippy the Hippo ate their grass!
+Jeff the Zookeeper feeds Harold the Hippo
+Harold the Hippo ate their grass!
+Jeff the Zookeeper feeds Renee the Rhino
+Renee the Rhino ate their grass!
+Jeff the Zookeeper feeds Rex the Rhino
+Rex the Rhino ate their grass!
+Jeff the Zookeeper feeds Candy the Cat
+Candy the Cat ate their fish!
+Jeff the Zookeeper feeds Conan the Cat
+Conan the Cat ate their fish!
+Jeff the Zookeeper feeds Lionel the Lion
+Lionel the Lion ate their fish!
+Jeff the Zookeeper feeds Leah the Lion
+Leah the Lion ate their fish!
+Jeff the Zookeeper feeds Turbo the Tiger
+Turbo the Tiger ate their fish!
+Jeff the Zookeeper feeds Tina the Tiger
+Tina the Tiger ate their fish!
+Jeff the Zookeeper feeds Daniel the Dog
+Daniel the Dog eats dog food!
+Jeff the Zookeeper feeds Danielle the Dog
+Danielle the Dog eats dog food!
+Jeff the Zookeeper feeds Weston the Wolf
+Weston the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Wanda the Wolf
+Wanda the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Samantha the Snake
+Samantha the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Scott the Snake
+Scott the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Teresa the Turtle
+Teresa the Turtle eats their lettuce!
+Jeff the Zookeeper feeds Trent the Turtle
+Trent the Turtle eats their lettuce!
+
+
+Jeff the Zookeeper goes to exercise with Ellie the Elephant
+Ellie the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Edward the Elephant
+Edward the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Hippy the Hippo
+Hippy the Hippo splashes around in water!
+Jeff the Zookeeper goes to exercise with Harold the Hippo
+Harold the Hippo splashes around in water!
+Jeff the Zookeeper goes to exercise with Renee the Rhino
+Renee the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Rex the Rhino
+Rex the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Candy the Cat
+Candy the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Conan the Cat
+Conan the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Lionel the Lion
+Lionel the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Leah the Lion
+Leah the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Turbo the Tiger
+Turbo the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Tina the Tiger
+Tina the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Daniel the Dog
+Daniel the Dog dug a hole!
+Jeff the Zookeeper goes to exercise with Danielle the Dog
+Danielle the Dog played fetch!
+Jeff the Zookeeper goes to exercise with Weston the Wolf
+Weston the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Wanda the Wolf
+Wanda the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Samantha the Snake
+Samantha the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Scott the Snake
+Scott the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Teresa the Turtle
+Teresa the Turtle wins a race against a rabbit!
+Jeff the Zookeeper goes to exercise with Trent the Turtle
+Trent the Turtle wins a race against a rabbit!
+
+
+Jeff the Zookeeper tells Ellie the Elephant to sleep.
+Ellie the Elephant is going to bed.
+Jeff the Zookeeper tells Edward the Elephant to sleep.
+Edward the Elephant is going to bed.
+Jeff the Zookeeper tells Hippy the Hippo to sleep.
+Hippy the Hippo is going to bed.
+Jeff the Zookeeper tells Harold the Hippo to sleep.
+Harold the Hippo is going to bed.
+Jeff the Zookeeper tells Renee the Rhino to sleep.
+Renee the Rhino is going to bed.
+Jeff the Zookeeper tells Rex the Rhino to sleep.
+Rex the Rhino is going to bed.
+Jeff the Zookeeper tells Candy the Cat to sleep.
+Candy the Cat is going to bed.
+Jeff the Zookeeper tells Conan the Cat to sleep.
+Meow!
+Jeff the Zookeeper tells Lionel the Lion to sleep.
+Lionel the Lion is going to bed.
+Jeff the Zookeeper tells Leah the Lion to sleep.
+Leah the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper tells Turbo the Tiger to sleep.
+Turbo the Tiger is going to bed.
+Jeff the Zookeeper tells Tina the Tiger to sleep.
+Tina the Tiger is going to bed.
+Jeff the Zookeeper tells Daniel the Dog to sleep.
+Daniel the Dog is going to bed.
+Jeff the Zookeeper tells Danielle the Dog to sleep.
+Danielle the Dog is going to bed.
+Jeff the Zookeeper tells Weston the Wolf to sleep.
+Weston the Wolf is going to bed.
+Jeff the Zookeeper tells Wanda the Wolf to sleep.
+Wanda the Wolf is going to bed.
+Jeff the Zookeeper tells Samantha the Snake to sleep.
+Samantha the Snake is going to bed.
+Jeff the Zookeeper tells Scott the Snake to sleep.
+Scott the Snake is going to bed.
+Jeff the Zookeeper tells Teresa the Turtle to sleep.
+Teresa the Turtle is going to bed.
+Jeff the Zookeeper tells Trent the Turtle to sleep.
+Trent the Turtle is going to bed.
+
+
+Jeff the Zookeeper is leaving the zoo.
+
+It is Day 4.
+
+Jeff the Zookeeper is arriving at the zoo.
+
+
+Jeff the Zookeeper is waking up Ellie the Elephant
+Ellie the Elephant just woke up!
+Jeff the Zookeeper is waking up Edward the Elephant
+Edward the Elephant just woke up!
+Jeff the Zookeeper is waking up Hippy the Hippo
+Hippy the Hippo just woke up!
+Jeff the Zookeeper is waking up Harold the Hippo
+Harold the Hippo just woke up!
+Jeff the Zookeeper is waking up Renee the Rhino
+Renee the Rhino just woke up!
+Jeff the Zookeeper is waking up Rex the Rhino
+Rex the Rhino just woke up!
+Jeff the Zookeeper is waking up Candy the Cat
+Candy the Cat just woke up!
+Jeff the Zookeeper is waking up Conan the Cat
+Conan the Cat just woke up!
+Jeff the Zookeeper is waking up Lionel the Lion
+Lionel the Lion just woke up!
+Jeff the Zookeeper is waking up Leah the Lion
+Leah the Lion just woke up!
+Jeff the Zookeeper is waking up Turbo the Tiger
+Turbo the Tiger just woke up!
+Jeff the Zookeeper is waking up Tina the Tiger
+Tina the Tiger just woke up!
+Jeff the Zookeeper is waking up Daniel the Dog
+Daniel the Dog just woke up!
+Jeff the Zookeeper is waking up Danielle the Dog
+Danielle the Dog just woke up!
+Jeff the Zookeeper is waking up Weston the Wolf
+Weston the Wolf just woke up!
+Jeff the Zookeeper is waking up Wanda the Wolf
+Wanda the Wolf just woke up!
+Jeff the Zookeeper is waking up Samantha the Snake
+Samantha the Snake just woke up!
+Jeff the Zookeeper is waking up Scott the Snake
+Scott the Snake just woke up!
+Jeff the Zookeeper is waking up Teresa the Turtle
+Teresa the Turtle just woke up!
+Jeff the Zookeeper is waking up Trent the Turtle
+Trent the Turtle just woke up!
+
+
+Jeff the Zookeeper calls out for Ellie the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Edward the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Hippy the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Harold the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Renee the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Rex the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Candy the Cat
+Meow!
+Jeff the Zookeeper calls out for Conan the Cat
+Meow!
+Jeff the Zookeeper calls out for Lionel the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Leah the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Turbo the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Tina the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Daniel the Dog
+Woof!
+Jeff the Zookeeper calls out for Danielle the Dog
+Woof!
+Jeff the Zookeeper calls out for Weston the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Wanda the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Samantha the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Scott the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Teresa the Turtle
+Snap snap!
+Jeff the Zookeeper calls out for Trent the Turtle
+Snap snap!
+
+
+Jeff the Zookeeper feeds Ellie the Elephant
+Ellie the Elephant ate their grass!
+Jeff the Zookeeper feeds Edward the Elephant
+Edward the Elephant ate their grass!
+Jeff the Zookeeper feeds Hippy the Hippo
+Hippy the Hippo ate their grass!
+Jeff the Zookeeper feeds Harold the Hippo
+Harold the Hippo ate their grass!
+Jeff the Zookeeper feeds Renee the Rhino
+Renee the Rhino ate their grass!
+Jeff the Zookeeper feeds Rex the Rhino
+Rex the Rhino ate their grass!
+Jeff the Zookeeper feeds Candy the Cat
+Candy the Cat ate their fish!
+Jeff the Zookeeper feeds Conan the Cat
+Conan the Cat ate their fish!
+Jeff the Zookeeper feeds Lionel the Lion
+Lionel the Lion ate their fish!
+Jeff the Zookeeper feeds Leah the Lion
+Leah the Lion ate their fish!
+Jeff the Zookeeper feeds Turbo the Tiger
+Turbo the Tiger ate their fish!
+Jeff the Zookeeper feeds Tina the Tiger
+Tina the Tiger ate their fish!
+Jeff the Zookeeper feeds Daniel the Dog
+Daniel the Dog eats dog food!
+Jeff the Zookeeper feeds Danielle the Dog
+Danielle the Dog eats dog food!
+Jeff the Zookeeper feeds Weston the Wolf
+Weston the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Wanda the Wolf
+Wanda the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Samantha the Snake
+Samantha the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Scott the Snake
+Scott the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Teresa the Turtle
+Teresa the Turtle eats their lettuce!
+Jeff the Zookeeper feeds Trent the Turtle
+Trent the Turtle eats their lettuce!
+
+
+Jeff the Zookeeper goes to exercise with Ellie the Elephant
+Ellie the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Edward the Elephant
+Edward the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Hippy the Hippo
+Hippy the Hippo splashes around in water!
+Jeff the Zookeeper goes to exercise with Harold the Hippo
+Harold the Hippo splashes around in water!
+Jeff the Zookeeper goes to exercise with Renee the Rhino
+Renee the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Rex the Rhino
+Rex the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Candy the Cat
+Candy the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Conan the Cat
+Conan the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Lionel the Lion
+Lionel the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Leah the Lion
+Leah the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Turbo the Tiger
+Turbo the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Tina the Tiger
+Tina the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Daniel the Dog
+Daniel the Dog dug a hole!
+Jeff the Zookeeper goes to exercise with Danielle the Dog
+Danielle the Dog played fetch!
+Jeff the Zookeeper goes to exercise with Weston the Wolf
+Weston the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Wanda the Wolf
+Wanda the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Samantha the Snake
+Samantha the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Scott the Snake
+Scott the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Teresa the Turtle
+Teresa the Turtle wins a race against a rabbit!
+Jeff the Zookeeper goes to exercise with Trent the Turtle
+Trent the Turtle wins a race against a rabbit!
+
+
+Jeff the Zookeeper tells Ellie the Elephant to sleep.
+Ellie the Elephant is going to bed.
+Jeff the Zookeeper tells Edward the Elephant to sleep.
+Edward the Elephant is going to bed.
+Jeff the Zookeeper tells Hippy the Hippo to sleep.
+Hippy the Hippo is going to bed.
+Jeff the Zookeeper tells Harold the Hippo to sleep.
+Harold the Hippo is going to bed.
+Jeff the Zookeeper tells Renee the Rhino to sleep.
+Renee the Rhino is going to bed.
+Jeff the Zookeeper tells Rex the Rhino to sleep.
+Rex the Rhino is going to bed.
+Jeff the Zookeeper tells Candy the Cat to sleep.
+Candy the Cat is going to bed.
+Jeff the Zookeeper tells Conan the Cat to sleep.
+Conan the Cat is going to bed.
+Jeff the Zookeeper tells Lionel the Lion to sleep.
+Lionel the Lion is going to bed.
+Jeff the Zookeeper tells Leah the Lion to sleep.
+Leah the Lion is going to bed.
+Jeff the Zookeeper tells Turbo the Tiger to sleep.
+Turbo the Tiger runs around restlessly!
+Jeff the Zookeeper tells Tina the Tiger to sleep.
+Tina the Tiger is going to bed.
+Jeff the Zookeeper tells Daniel the Dog to sleep.
+Daniel the Dog is going to bed.
+Jeff the Zookeeper tells Danielle the Dog to sleep.
+Danielle the Dog is going to bed.
+Jeff the Zookeeper tells Weston the Wolf to sleep.
+Weston the Wolf is going to bed.
+Jeff the Zookeeper tells Wanda the Wolf to sleep.
+Wanda the Wolf is going to bed.
+Jeff the Zookeeper tells Samantha the Snake to sleep.
+Samantha the Snake is going to bed.
+Jeff the Zookeeper tells Scott the Snake to sleep.
+Scott the Snake is going to bed.
+Jeff the Zookeeper tells Teresa the Turtle to sleep.
+Teresa the Turtle is going to bed.
+Jeff the Zookeeper tells Trent the Turtle to sleep.
+Trent the Turtle is going to bed.
+
+
+Jeff the Zookeeper is leaving the zoo.
+
+It is Day 5.
+
+Jeff the Zookeeper is arriving at the zoo.
+
+
+Jeff the Zookeeper is waking up Ellie the Elephant
+Ellie the Elephant just woke up!
+Jeff the Zookeeper is waking up Edward the Elephant
+Edward the Elephant just woke up!
+Jeff the Zookeeper is waking up Hippy the Hippo
+Hippy the Hippo just woke up!
+Jeff the Zookeeper is waking up Harold the Hippo
+Harold the Hippo just woke up!
+Jeff the Zookeeper is waking up Renee the Rhino
+Renee the Rhino just woke up!
+Jeff the Zookeeper is waking up Rex the Rhino
+Rex the Rhino just woke up!
+Jeff the Zookeeper is waking up Candy the Cat
+Candy the Cat just woke up!
+Jeff the Zookeeper is waking up Conan the Cat
+Conan the Cat just woke up!
+Jeff the Zookeeper is waking up Lionel the Lion
+Lionel the Lion just woke up!
+Jeff the Zookeeper is waking up Leah the Lion
+Leah the Lion just woke up!
+Jeff the Zookeeper is waking up Turbo the Tiger
+Turbo the Tiger just woke up!
+Jeff the Zookeeper is waking up Tina the Tiger
+Tina the Tiger just woke up!
+Jeff the Zookeeper is waking up Daniel the Dog
+Daniel the Dog just woke up!
+Jeff the Zookeeper is waking up Danielle the Dog
+Danielle the Dog just woke up!
+Jeff the Zookeeper is waking up Weston the Wolf
+Weston the Wolf just woke up!
+Jeff the Zookeeper is waking up Wanda the Wolf
+Wanda the Wolf just woke up!
+Jeff the Zookeeper is waking up Samantha the Snake
+Samantha the Snake just woke up!
+Jeff the Zookeeper is waking up Scott the Snake
+Scott the Snake just woke up!
+Jeff the Zookeeper is waking up Teresa the Turtle
+Teresa the Turtle just woke up!
+Jeff the Zookeeper is waking up Trent the Turtle
+Trent the Turtle just woke up!
+
+
+Jeff the Zookeeper calls out for Ellie the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Edward the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Hippy the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Harold the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Renee the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Rex the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Candy the Cat
+Meow!
+Jeff the Zookeeper calls out for Conan the Cat
+Meow!
+Jeff the Zookeeper calls out for Lionel the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Leah the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Turbo the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Tina the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Daniel the Dog
+Woof!
+Jeff the Zookeeper calls out for Danielle the Dog
+Woof!
+Jeff the Zookeeper calls out for Weston the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Wanda the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Samantha the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Scott the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Teresa the Turtle
+Snap snap!
+Jeff the Zookeeper calls out for Trent the Turtle
+Snap snap!
+
+
+Jeff the Zookeeper feeds Ellie the Elephant
+Ellie the Elephant ate their grass!
+Jeff the Zookeeper feeds Edward the Elephant
+Edward the Elephant ate their grass!
+Jeff the Zookeeper feeds Hippy the Hippo
+Hippy the Hippo ate their grass!
+Jeff the Zookeeper feeds Harold the Hippo
+Harold the Hippo ate their grass!
+Jeff the Zookeeper feeds Renee the Rhino
+Renee the Rhino ate their grass!
+Jeff the Zookeeper feeds Rex the Rhino
+Rex the Rhino ate their grass!
+Jeff the Zookeeper feeds Candy the Cat
+Candy the Cat ate their fish!
+Jeff the Zookeeper feeds Conan the Cat
+Conan the Cat ate their fish!
+Jeff the Zookeeper feeds Lionel the Lion
+Lionel the Lion ate their fish!
+Jeff the Zookeeper feeds Leah the Lion
+Leah the Lion ate their fish!
+Jeff the Zookeeper feeds Turbo the Tiger
+Turbo the Tiger ate their fish!
+Jeff the Zookeeper feeds Tina the Tiger
+Tina the Tiger ate their fish!
+Jeff the Zookeeper feeds Daniel the Dog
+Daniel the Dog eats dog food!
+Jeff the Zookeeper feeds Danielle the Dog
+Danielle the Dog eats dog food!
+Jeff the Zookeeper feeds Weston the Wolf
+Weston the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Wanda the Wolf
+Wanda the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Samantha the Snake
+Samantha the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Scott the Snake
+Scott the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Teresa the Turtle
+Teresa the Turtle eats their lettuce!
+Jeff the Zookeeper feeds Trent the Turtle
+Trent the Turtle eats their lettuce!
+
+
+Jeff the Zookeeper goes to exercise with Ellie the Elephant
+Ellie the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Edward the Elephant
+Edward the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Hippy the Hippo
+Hippy the Hippo CHAAARGED, RUN AWAAAAAAAAY!
+Jeff the Zookeeper goes to exercise with Harold the Hippo
+Harold the Hippo splashes around in water!
+Jeff the Zookeeper goes to exercise with Renee the Rhino
+Renee the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Rex the Rhino
+Rex the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Candy the Cat
+Candy the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Conan the Cat
+Conan the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Lionel the Lion
+Lionel the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Leah the Lion
+Leah the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Turbo the Tiger
+Turbo the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Tina the Tiger
+Tina the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Daniel the Dog
+Daniel the Dog dug a hole!
+Jeff the Zookeeper goes to exercise with Danielle the Dog
+Danielle the Dog played fetch!
+Jeff the Zookeeper goes to exercise with Weston the Wolf
+Weston the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Wanda the Wolf
+Wanda the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Samantha the Snake
+Samantha the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Scott the Snake
+Scott the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Teresa the Turtle
+Teresa the Turtle wins a race against a rabbit!
+Jeff the Zookeeper goes to exercise with Trent the Turtle
+Trent the Turtle wins a race against a rabbit!
+
+
+Jeff the Zookeeper tells Ellie the Elephant to sleep.
+Ellie the Elephant is going to bed.
+Jeff the Zookeeper tells Edward the Elephant to sleep.
+Edward the Elephant is going to bed.
+Jeff the Zookeeper tells Hippy the Hippo to sleep.
+Hippy the Hippo is going to bed.
+Jeff the Zookeeper tells Harold the Hippo to sleep.
+Harold the Hippo is going to bed.
+Jeff the Zookeeper tells Renee the Rhino to sleep.
+Renee the Rhino is going to bed.
+Jeff the Zookeeper tells Rex the Rhino to sleep.
+Rex the Rhino is going to bed.
+Jeff the Zookeeper tells Candy the Cat to sleep.
+Candy the Cat chased a ball of yarn!
+Jeff the Zookeeper tells Conan the Cat to sleep.
+Meow!
+Jeff the Zookeeper tells Lionel the Lion to sleep.
+Lionel the Lion is going to bed.
+Jeff the Zookeeper tells Leah the Lion to sleep.
+ROAAAR!
+Jeff the Zookeeper tells Turbo the Tiger to sleep.
+Gwraaaaa!
+Jeff the Zookeeper tells Tina the Tiger to sleep.
+Tina the Tiger is going to bed.
+Jeff the Zookeeper tells Daniel the Dog to sleep.
+Daniel the Dog is going to bed.
+Jeff the Zookeeper tells Danielle the Dog to sleep.
+Danielle the Dog is going to bed.
+Jeff the Zookeeper tells Weston the Wolf to sleep.
+Weston the Wolf is going to bed.
+Jeff the Zookeeper tells Wanda the Wolf to sleep.
+Wanda the Wolf is going to bed.
+Jeff the Zookeeper tells Samantha the Snake to sleep.
+Samantha the Snake is going to bed.
+Jeff the Zookeeper tells Scott the Snake to sleep.
+Scott the Snake is going to bed.
+Jeff the Zookeeper tells Teresa the Turtle to sleep.
+Teresa the Turtle is going to bed.
+Jeff the Zookeeper tells Trent the Turtle to sleep.
+Trent the Turtle is going to bed.
+
+
+Jeff the Zookeeper is leaving the zoo.
+
+It is Day 6.
+
+Jeff the Zookeeper is arriving at the zoo.
+
+
+Jeff the Zookeeper is waking up Ellie the Elephant
+Ellie the Elephant just woke up!
+Jeff the Zookeeper is waking up Edward the Elephant
+Edward the Elephant just woke up!
+Jeff the Zookeeper is waking up Hippy the Hippo
+Hippy the Hippo just woke up!
+Jeff the Zookeeper is waking up Harold the Hippo
+Harold the Hippo just woke up!
+Jeff the Zookeeper is waking up Renee the Rhino
+Renee the Rhino just woke up!
+Jeff the Zookeeper is waking up Rex the Rhino
+Rex the Rhino just woke up!
+Jeff the Zookeeper is waking up Candy the Cat
+Candy the Cat just woke up!
+Jeff the Zookeeper is waking up Conan the Cat
+Conan the Cat just woke up!
+Jeff the Zookeeper is waking up Lionel the Lion
+Lionel the Lion just woke up!
+Jeff the Zookeeper is waking up Leah the Lion
+Leah the Lion just woke up!
+Jeff the Zookeeper is waking up Turbo the Tiger
+Turbo the Tiger just woke up!
+Jeff the Zookeeper is waking up Tina the Tiger
+Tina the Tiger just woke up!
+Jeff the Zookeeper is waking up Daniel the Dog
+Daniel the Dog just woke up!
+Jeff the Zookeeper is waking up Danielle the Dog
+Danielle the Dog just woke up!
+Jeff the Zookeeper is waking up Weston the Wolf
+Weston the Wolf just woke up!
+Jeff the Zookeeper is waking up Wanda the Wolf
+Wanda the Wolf just woke up!
+Jeff the Zookeeper is waking up Samantha the Snake
+Samantha the Snake just woke up!
+Jeff the Zookeeper is waking up Scott the Snake
+Scott the Snake just woke up!
+Jeff the Zookeeper is waking up Teresa the Turtle
+Teresa the Turtle just woke up!
+Jeff the Zookeeper is waking up Trent the Turtle
+Trent the Turtle just woke up!
+
+
+Jeff the Zookeeper calls out for Ellie the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Edward the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Hippy the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Harold the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Renee the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Rex the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Candy the Cat
+Meow!
+Jeff the Zookeeper calls out for Conan the Cat
+Meow!
+Jeff the Zookeeper calls out for Lionel the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Leah the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Turbo the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Tina the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Daniel the Dog
+Woof!
+Jeff the Zookeeper calls out for Danielle the Dog
+Woof!
+Jeff the Zookeeper calls out for Weston the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Wanda the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Samantha the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Scott the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Teresa the Turtle
+Snap snap!
+Jeff the Zookeeper calls out for Trent the Turtle
+Snap snap!
+
+
+Jeff the Zookeeper feeds Ellie the Elephant
+Ellie the Elephant ate their grass!
+Jeff the Zookeeper feeds Edward the Elephant
+Edward the Elephant ate their grass!
+Jeff the Zookeeper feeds Hippy the Hippo
+Hippy the Hippo ate their grass!
+Jeff the Zookeeper feeds Harold the Hippo
+Harold the Hippo ate their grass!
+Jeff the Zookeeper feeds Renee the Rhino
+Renee the Rhino ate their grass!
+Jeff the Zookeeper feeds Rex the Rhino
+Rex the Rhino ate their grass!
+Jeff the Zookeeper feeds Candy the Cat
+Candy the Cat ate their fish!
+Jeff the Zookeeper feeds Conan the Cat
+Conan the Cat ate their fish!
+Jeff the Zookeeper feeds Lionel the Lion
+Lionel the Lion ate their fish!
+Jeff the Zookeeper feeds Leah the Lion
+Leah the Lion ate their fish!
+Jeff the Zookeeper feeds Turbo the Tiger
+Turbo the Tiger ate their fish!
+Jeff the Zookeeper feeds Tina the Tiger
+Tina the Tiger ate their fish!
+Jeff the Zookeeper feeds Daniel the Dog
+Daniel the Dog eats dog food!
+Jeff the Zookeeper feeds Danielle the Dog
+Danielle the Dog eats dog food!
+Jeff the Zookeeper feeds Weston the Wolf
+Weston the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Wanda the Wolf
+Wanda the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Samantha the Snake
+Samantha the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Scott the Snake
+Scott the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Teresa the Turtle
+Teresa the Turtle eats their lettuce!
+Jeff the Zookeeper feeds Trent the Turtle
+Trent the Turtle eats their lettuce!
+
+
+Jeff the Zookeeper goes to exercise with Ellie the Elephant
+Ellie the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Edward the Elephant
+Edward the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Hippy the Hippo
+Hippy the Hippo CHAAARGED, RUN AWAAAAAAAAY!
+Jeff the Zookeeper goes to exercise with Harold the Hippo
+Harold the Hippo splashes around in water!
+Jeff the Zookeeper goes to exercise with Renee the Rhino
+Renee the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Rex the Rhino
+Rex the Rhino splashes around in water!
+Jeff the Zookeeper goes to exercise with Candy the Cat
+Candy the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Conan the Cat
+Conan the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Lionel the Lion
+Lionel the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Leah the Lion
+Leah the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Turbo the Tiger
+Turbo the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Tina the Tiger
+Tina the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Daniel the Dog
+Daniel the Dog played fetch!
+Jeff the Zookeeper goes to exercise with Danielle the Dog
+Danielle the Dog played fetch!
+Jeff the Zookeeper goes to exercise with Weston the Wolf
+Weston the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Wanda the Wolf
+Wanda the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Samantha the Snake
+Samantha the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Scott the Snake
+Scott the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Teresa the Turtle
+Teresa the Turtle wins a race against a rabbit!
+Jeff the Zookeeper goes to exercise with Trent the Turtle
+Trent the Turtle wins a race against a rabbit!
+
+
+Jeff the Zookeeper tells Ellie the Elephant to sleep.
+Ellie the Elephant is going to bed.
+Jeff the Zookeeper tells Edward the Elephant to sleep.
+Edward the Elephant is going to bed.
+Jeff the Zookeeper tells Hippy the Hippo to sleep.
+Hippy the Hippo is going to bed.
+Jeff the Zookeeper tells Harold the Hippo to sleep.
+Harold the Hippo is going to bed.
+Jeff the Zookeeper tells Renee the Rhino to sleep.
+Renee the Rhino is going to bed.
+Jeff the Zookeeper tells Rex the Rhino to sleep.
+Rex the Rhino is going to bed.
+Jeff the Zookeeper tells Candy the Cat to sleep.
+Candy the Cat is going to bed.
+Jeff the Zookeeper tells Conan the Cat to sleep.
+Conan the Cat chased a ball of yarn!
+Jeff the Zookeeper tells Lionel the Lion to sleep.
+Lionel the Lion is going to bed.
+Jeff the Zookeeper tells Leah the Lion to sleep.
+Leah the Lion is going to bed.
+Jeff the Zookeeper tells Turbo the Tiger to sleep.
+Turbo the Tiger is going to bed.
+Jeff the Zookeeper tells Tina the Tiger to sleep.
+Tina the Tiger is going to bed.
+Jeff the Zookeeper tells Daniel the Dog to sleep.
+Daniel the Dog is going to bed.
+Jeff the Zookeeper tells Danielle the Dog to sleep.
+Danielle the Dog is going to bed.
+Jeff the Zookeeper tells Weston the Wolf to sleep.
+Weston the Wolf is going to bed.
+Jeff the Zookeeper tells Wanda the Wolf to sleep.
+Wanda the Wolf is going to bed.
+Jeff the Zookeeper tells Samantha the Snake to sleep.
+Samantha the Snake is going to bed.
+Jeff the Zookeeper tells Scott the Snake to sleep.
+Scott the Snake is going to bed.
+Jeff the Zookeeper tells Teresa the Turtle to sleep.
+Teresa the Turtle is going to bed.
+Jeff the Zookeeper tells Trent the Turtle to sleep.
+Trent the Turtle is going to bed.
+
+
+Jeff the Zookeeper is leaving the zoo.
+
+It is Day 7.
+
+Jeff the Zookeeper is arriving at the zoo.
+
+
+Jeff the Zookeeper is waking up Ellie the Elephant
+Ellie the Elephant just woke up!
+Jeff the Zookeeper is waking up Edward the Elephant
+Edward the Elephant just woke up!
+Jeff the Zookeeper is waking up Hippy the Hippo
+Hippy the Hippo just woke up!
+Jeff the Zookeeper is waking up Harold the Hippo
+Harold the Hippo just woke up!
+Jeff the Zookeeper is waking up Renee the Rhino
+Renee the Rhino just woke up!
+Jeff the Zookeeper is waking up Rex the Rhino
+Rex the Rhino just woke up!
+Jeff the Zookeeper is waking up Candy the Cat
+Candy the Cat just woke up!
+Jeff the Zookeeper is waking up Conan the Cat
+Conan the Cat just woke up!
+Jeff the Zookeeper is waking up Lionel the Lion
+Lionel the Lion just woke up!
+Jeff the Zookeeper is waking up Leah the Lion
+Leah the Lion just woke up!
+Jeff the Zookeeper is waking up Turbo the Tiger
+Turbo the Tiger just woke up!
+Jeff the Zookeeper is waking up Tina the Tiger
+Tina the Tiger just woke up!
+Jeff the Zookeeper is waking up Daniel the Dog
+Daniel the Dog just woke up!
+Jeff the Zookeeper is waking up Danielle the Dog
+Danielle the Dog just woke up!
+Jeff the Zookeeper is waking up Weston the Wolf
+Weston the Wolf just woke up!
+Jeff the Zookeeper is waking up Wanda the Wolf
+Wanda the Wolf just woke up!
+Jeff the Zookeeper is waking up Samantha the Snake
+Samantha the Snake just woke up!
+Jeff the Zookeeper is waking up Scott the Snake
+Scott the Snake just woke up!
+Jeff the Zookeeper is waking up Teresa the Turtle
+Teresa the Turtle just woke up!
+Jeff the Zookeeper is waking up Trent the Turtle
+Trent the Turtle just woke up!
+
+
+Jeff the Zookeeper calls out for Ellie the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Edward the Elephant
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Hippy the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Harold the Hippo
+<excited hippo noise>
+Jeff the Zookeeper calls out for Renee the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Rex the Rhino
+<trumpet noise ensues>
+Jeff the Zookeeper calls out for Candy the Cat
+Meow!
+Jeff the Zookeeper calls out for Conan the Cat
+Meow!
+Jeff the Zookeeper calls out for Lionel the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Leah the Lion
+ROAAAR!
+Jeff the Zookeeper calls out for Turbo the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Tina the Tiger
+Gwraaaaa!
+Jeff the Zookeeper calls out for Daniel the Dog
+Woof!
+Jeff the Zookeeper calls out for Danielle the Dog
+Woof!
+Jeff the Zookeeper calls out for Weston the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Wanda the Wolf
+Howlllllll!
+Jeff the Zookeeper calls out for Samantha the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Scott the Snake
+Slither slither!
+Jeff the Zookeeper calls out for Teresa the Turtle
+Snap snap!
+Jeff the Zookeeper calls out for Trent the Turtle
+Snap snap!
+
+
+Jeff the Zookeeper feeds Ellie the Elephant
+Ellie the Elephant ate their grass!
+Jeff the Zookeeper feeds Edward the Elephant
+Edward the Elephant ate their grass!
+Jeff the Zookeeper feeds Hippy the Hippo
+Hippy the Hippo ate their grass!
+Jeff the Zookeeper feeds Harold the Hippo
+Harold the Hippo ate their grass!
+Jeff the Zookeeper feeds Renee the Rhino
+Renee the Rhino ate their grass!
+Jeff the Zookeeper feeds Rex the Rhino
+Rex the Rhino ate their grass!
+Jeff the Zookeeper feeds Candy the Cat
+Candy the Cat ate their fish!
+Jeff the Zookeeper feeds Conan the Cat
+Conan the Cat ate their fish!
+Jeff the Zookeeper feeds Lionel the Lion
+Lionel the Lion ate their fish!
+Jeff the Zookeeper feeds Leah the Lion
+Leah the Lion ate their fish!
+Jeff the Zookeeper feeds Turbo the Tiger
+Turbo the Tiger ate their fish!
+Jeff the Zookeeper feeds Tina the Tiger
+Tina the Tiger ate their fish!
+Jeff the Zookeeper feeds Daniel the Dog
+Daniel the Dog eats dog food!
+Jeff the Zookeeper feeds Danielle the Dog
+Danielle the Dog eats dog food!
+Jeff the Zookeeper feeds Weston the Wolf
+Weston the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Wanda the Wolf
+Wanda the Wolf ate a rabbit!
+Jeff the Zookeeper feeds Samantha the Snake
+Samantha the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Scott the Snake
+Scott the Snake eats a mouse . . ew!
+Jeff the Zookeeper feeds Teresa the Turtle
+Teresa the Turtle eats their lettuce!
+Jeff the Zookeeper feeds Trent the Turtle
+Trent the Turtle eats their lettuce!
+
+
+Jeff the Zookeeper goes to exercise with Ellie the Elephant
+Ellie the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Edward the Elephant
+Edward the Elephant splashes around with their trunk!
+Jeff the Zookeeper goes to exercise with Hippy the Hippo
+Hippy the Hippo splashes around in water!
+Jeff the Zookeeper goes to exercise with Harold the Hippo
+Harold the Hippo splashes around in water!
+Jeff the Zookeeper goes to exercise with Renee the Rhino
+Renee the Rhino CHAAARGED, RUN AWAAAAAAAAY!
+Jeff the Zookeeper goes to exercise with Rex the Rhino
+Rex the Rhino CHAAARGED, RUN AWAAAAAAAAY!
+Jeff the Zookeeper goes to exercise with Candy the Cat
+Candy the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Conan the Cat
+Conan the Cat chased a ball of yarn!
+Jeff the Zookeeper goes to exercise with Lionel the Lion
+Lionel the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Leah the Lion
+Leah the Lion walks around menacingly, showing off their mane!
+Jeff the Zookeeper goes to exercise with Turbo the Tiger
+Turbo the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Tina the Tiger
+Tina the Tiger runs around restlessly!
+Jeff the Zookeeper goes to exercise with Daniel the Dog
+Daniel the Dog played fetch!
+Jeff the Zookeeper goes to exercise with Danielle the Dog
+Danielle the Dog dug a hole!
+Jeff the Zookeeper goes to exercise with Weston the Wolf
+Weston the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Wanda the Wolf
+Wanda the Wolf ran with his pals!
+Jeff the Zookeeper goes to exercise with Samantha the Snake
+Samantha the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Scott the Snake
+Scott the Snake . . . do snakes even exercise?
+Jeff the Zookeeper goes to exercise with Teresa the Turtle
+Teresa the Turtle wins a race against a rabbit!
+Jeff the Zookeeper goes to exercise with Trent the Turtle
+Trent the Turtle wins a race against a rabbit!
+
+
+Jeff the Zookeeper tells Ellie the Elephant to sleep.
+Ellie the Elephant is going to bed.
+Jeff the Zookeeper tells Edward the Elephant to sleep.
+Edward the Elephant is going to bed.
+Jeff the Zookeeper tells Hippy the Hippo to sleep.
+Hippy the Hippo is going to bed.
+Jeff the Zookeeper tells Harold the Hippo to sleep.
+Harold the Hippo is going to bed.
+Jeff the Zookeeper tells Renee the Rhino to sleep.
+Renee the Rhino is going to bed.
+Jeff the Zookeeper tells Rex the Rhino to sleep.
+Rex the Rhino is going to bed.
+Jeff the Zookeeper tells Candy the Cat to sleep.
+Candy the Cat is going to bed.
+Jeff the Zookeeper tells Conan the Cat to sleep.
+Meow!
+Jeff the Zookeeper tells Lionel the Lion to sleep.
+Lionel the Lion is going to bed.
+Jeff the Zookeeper tells Leah the Lion to sleep.
+Leah the Lion is going to bed.
+Jeff the Zookeeper tells Turbo the Tiger to sleep.
+Turbo the Tiger is going to bed.
+Jeff the Zookeeper tells Tina the Tiger to sleep.
+Tina the Tiger is going to bed.
+Jeff the Zookeeper tells Daniel the Dog to sleep.
+Daniel the Dog is going to bed.
+Jeff the Zookeeper tells Danielle the Dog to sleep.
+Danielle the Dog is going to bed.
+Jeff the Zookeeper tells Weston the Wolf to sleep.
+Weston the Wolf is going to bed.
+Jeff the Zookeeper tells Wanda the Wolf to sleep.
+Wanda the Wolf is going to bed.
+Jeff the Zookeeper tells Samantha the Snake to sleep.
+Samantha the Snake is going to bed.
+Jeff the Zookeeper tells Scott the Snake to sleep.
+Scott the Snake is going to bed.
+Jeff the Zookeeper tells Teresa the Turtle to sleep.
+Teresa the Turtle is going to bed.
+Jeff the Zookeeper tells Trent the Turtle to sleep.
+Trent the Turtle is going to bed.
+
+
+Jeff the Zookeeper is leaving the zoo.
+Thank you for visiting the Denver Zoo! We hope you had a great last 7 days!
+PS C:\Users\Kyran\Documents\Kyran's Stuff\Github\CSCI-4448> 

@@ -1,0 +1,38 @@
+package Animals.Canine;
+
+import java.util.Random;
+
+public class Dog extends Canine {
+  public Dog() {
+    super("Dog the Dog");
+  }
+
+  public Dog(final String name) {
+    super(name + " the Dog");
+  }
+
+  public void makeNoise() {
+    System.out.println("Woof!");
+  }
+
+  public void eat() {
+    System.out.println(this.getName() + " eats dog food!");
+  }
+
+  // special case for dogs
+  public void exercise() {
+    // https://www.geeksforgeeks.org/generating-random-numbers-in-java/
+
+    final Random rand = new Random();
+    final double x = rand.nextDouble() * 100;
+    int randomNum = (int) x;
+    randomNum += 1; // this makes the possible values range from 1 - 100
+
+    if (randomNum < 25) {
+      System.out.println(this.getName() + " dug a hole!");
+    } else {
+      System.out.println(this.getName() + " played fetch!");
+    }
+
+  }
+}
