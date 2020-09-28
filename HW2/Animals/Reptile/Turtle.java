@@ -7,7 +7,7 @@ public class Turtle extends Reptile {
     super ("Turtle the Turtle");
   }
 
-  public Turtle(final String name) { 
+  public Turtle(String name) { 
     super(name + " the Turtle");
   }
 

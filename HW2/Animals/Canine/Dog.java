@@ -9,7 +9,7 @@ public class Dog extends Canine {
     super("Dog the Dog");
   }
 
-  public Dog(final String name) {
+  public Dog(String name) {
     super(name + " the Dog", new WoofNoiseStrategy());
   }
 
