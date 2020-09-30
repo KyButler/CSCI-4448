@@ -19,7 +19,7 @@ public class Main {
 
     denver.go(days);
 
-    System.out.println("Thank you for visiting the Denver Zoo! We hope you had a great last " + days + " days!");
+    System.out.println("Thank you for visiting the Denver Zoo! We hope you had a great " + (days == 1 ? "day" : "last " + days + " days") + "!");
     return;
   }
 }

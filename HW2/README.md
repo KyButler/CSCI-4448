@@ -8,12 +8,15 @@ A Zoo built with OOP for CSCI-4448.
 
 ## Comments / Assumptions
 
-- "Roaming" is used in multiple different ways during the writeup. We assumed that every instance of Roaming could instead be replaced with "exercising", therefore in the instance where a Feline decides to 'roam', we instead just call the exercise method.
+- Assumptions that the Animal classes don't have to be gone in depth in the UML diagrams as stated. This means we may state that we call for an Animal to go to sleep, but not go in depth about specifically what occurs when, say, a Cat goes to sleep.
+- The 1 day output is saved in "dayatthezoo.out" in the root.
 
 ## Issues
 
-- Not really. We had a case where we created the "Turtle.java" file, and unlike all of the other files created, it did not have a frame of a Java class (every file came with the "public class {} . . . "). Upon editing this file, the markdown coloring was weird, and the Zoo couldn't recognize it as an object. We ended up deleting and remaking the file with the *exact same code* and it worked. Odd.
+- Deciding the key differences between the UML Activity and Sequence diagram took a bit, but I believe we got the gist based on examples.
 
 ## Instructions to Run
 
-- No special instructions. Just have Java ready to be ran. The Main.java in the root must be ran. The exact command that VS Code ran can be seen in 'dayatthezoo.out', but should be able to be run normally without issue.
+- No special instructions. Just have Java ready to be ran. The Main.java in the root must be ran.
+- The PDF with our UML diagrams is named "UMLDiagrams.pdf" and is in the root of the repo. They are in order based on the questions. Individual UML diagrams can also be found under the "UML Diagrams" folder. They're the same, so feel free to reference those in the folder if it's clearer.
+- Again, the 1 day output is saved in "dayatthezoo.out" in the root.
