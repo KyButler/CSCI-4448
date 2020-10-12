@@ -5,15 +5,19 @@ import java.util.Collection;
 
 public class Inventory {
 
+  private double startingInventory;
+
   private Collection<InventoryItem> inventory = new ArrayList<InventoryItem>();
 
-  public Inventory(int startingInventory, String[] items) {
+  public Inventory(double startingInventory, String[] items) {
     // when the inventory is first initialized, add startingInventory amount of each
     // type of roll to their respective Collections.
 
     for (String item : items){
       inventory.add(new InventoryItem(item, startingInventory));
     }
+
+    this.startingInventory = startingInventory;
   }
 
   public void printInventoryCount() {
@@ -24,8 +28,11 @@ public class Inventory {
     }
   }
 
-  // public int buy(String itemName ) {
-
-  // }
-
+  public void restock() {
+    for (InventoryItem item : inventory) {
+      if (item.getQuantity() == 0) {
+        item.addStock(this.startingInventory);
+      }
+    }
+  }
 }

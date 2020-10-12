@@ -17,6 +17,9 @@ public class Store {
   // Each store has an inventory.
   private Inventory inventory;
 
+  // false while open, true while closed. This is to handle running out of inventory.
+  private boolean isClosed;
+
   private String[] menu = {"Spring Roll", "Egg Roll", "Pastry Roll", "Sausage Roll", "Jelly Roll"};
 
   // Store must be instantiated with an ID and a startingInventory. It's public, as to allow
@@ -32,12 +35,12 @@ public class Store {
     inventory.printInventoryCount();
   }
 
-  // returns 0 on successful purchase, -1 on failed (most likely due to low inventory, or bad name);
-  public int buy (String itemName) {
-
-    // inventory.
-
-
-    return 0;
+  public boolean isClosed() {
+    return isClosed;
   }
+
+  public void restock() {
+    inventory.restock();
+  }
+
 }
