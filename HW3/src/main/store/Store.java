@@ -7,6 +7,8 @@
 
 package main.store;
 
+import main.store.inventory.*;
+
 public class Store {
   // Each store has an ID tied to it. They 'should' be unique per Store, but don't
   // have to be based on this implementation
@@ -15,12 +17,14 @@ public class Store {
   // Each store has an inventory.
   private Inventory inventory;
 
+  private String[] menu = {"Spring Roll", "Egg Roll", "Pastry Roll", "Sausage Roll", "Jelly Roll"};
+
   // Store must be instantiated with an ID and a startingInventory. It's public, as to allow
   // other packages access to it.
 
   public Store(int id, int startingInventory) {
     this.id = id;
-    this.inventory = new Inventory(startingInventory);
+    this.inventory = new Inventory(startingInventory, menu);
   }
 
   public void printInventoryCount() {
@@ -28,4 +32,12 @@ public class Store {
     inventory.printInventoryCount();
   }
 
+  // returns 0 on successful purchase, -1 on failed (most likely due to low inventory, or bad name);
+  public int buy (String itemName) {
+
+    // inventory.
+
+
+    return 0;
+  }
 }
