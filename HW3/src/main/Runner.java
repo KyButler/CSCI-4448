@@ -18,10 +18,10 @@ public class Runner {
     Stores.add(new Store(0,30));
 
     // adding a helper that runs the day at the store.
-    DayRunner day = new DayRunner(Stores);
+    DayRunner day = new DayRunner();
 
     // run a day
     // TODO: this will be 30 days, don forget . . .
-    day.runDay();
+    day.runDay(Stores);
   }
 }

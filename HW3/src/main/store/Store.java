@@ -20,14 +20,16 @@ public class Store {
   // false while open, true while closed. This is to handle running out of inventory.
   private boolean isClosed;
 
+  // this isn't editable at run time, but I don't think it needs to be.
   private String[] menu = {"Spring Roll", "Egg Roll", "Pastry Roll", "Sausage Roll", "Jelly Roll"};
+  private Double[] prices = {.50, .75, 1.0, 1.25, 1.5};
 
   // Store must be instantiated with an ID and a startingInventory. It's public, as to allow
   // other packages access to it.
 
   public Store(int id, int startingInventory) {
     this.id = id;
-    this.inventory = new Inventory(startingInventory, menu);
+    this.inventory = new Inventory(startingInventory, menu, prices);
   }
 
   public void printInventoryCount() {
@@ -42,5 +44,4 @@ public class Store {
   public void restock() {
     inventory.restock();
   }
-
 }
