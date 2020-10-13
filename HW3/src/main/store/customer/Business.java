@@ -1,8 +1,10 @@
 package main.store.customer;
 
+import main.store.Store;
+
 public class Business implements Customer {
   @Override
-  public void buy() {
+  public void order(Store store) {
     
   }
 }

@@ -2,6 +2,8 @@ package main;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 import main.store.*;
@@ -16,7 +18,7 @@ public class DayRunner {
     // for each store, run a day simulation.
     for (Store store : stores) {
       // find out who 'should' be visiting on a given day.
-      
+
       int casualCount = rand.nextInt(12) + 1;
       int businessCount = rand.nextInt(3) + 1;
       int cateringCount = rand.nextInt(3) + 1;
@@ -33,8 +35,12 @@ public class DayRunner {
         customers.add(customerFactory.getCustomer("Catering"));
       }
 
+      Collections.shuffle((List<Customer>) customers);
+
       for (Customer customer : customers) {
-        customer.buy();
+        if (store.isOpen()) {
+          customer.order(store);
+        }
       }
 
       // restock the roll iff the stock of roll type = 0.

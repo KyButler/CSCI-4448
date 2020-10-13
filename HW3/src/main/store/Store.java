@@ -7,6 +7,8 @@
 
 package main.store;
 
+import java.util.List;
+
 import main.store.inventory.*;
 
 public class Store {
@@ -18,7 +20,7 @@ public class Store {
   private Inventory inventory;
 
   // false while open, true while closed. This is to handle running out of inventory.
-  private boolean isClosed;
+  private boolean isOpen;
 
   // this isn't editable at run time, but I don't think it needs to be.
   private String[] menu = {"Spring Roll", "Egg Roll", "Pastry Roll", "Sausage Roll", "Jelly Roll"};
@@ -30,6 +32,7 @@ public class Store {
   public Store(int id, int startingInventory) {
     this.id = id;
     this.inventory = new Inventory(startingInventory, menu, prices);
+    this.isOpen = true;
   }
 
   public void printInventoryCount() {
@@ -37,11 +40,15 @@ public class Store {
     inventory.printInventoryCount();
   }
 
-  public boolean isClosed() {
-    return isClosed;
+  public boolean isOpen() {
+    return isOpen;
   }
 
   public void restock() {
     inventory.restock();
+  }
+
+  public List<String> getOptions() {
+    return inventory.getOptions();
   }
 }

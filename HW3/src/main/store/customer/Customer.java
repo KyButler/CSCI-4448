@@ -1,5 +1,7 @@
 package main.store.customer;
 
+import main.store.Store;
+
 public interface Customer {
-  void buy(); // buy a certain amount?
+  void order(Store store); // buy a certain amount?
 }

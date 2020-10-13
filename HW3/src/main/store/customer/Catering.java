@@ -1,8 +1,12 @@
 package main.store.customer;
 
+import main.store.Store;
+
 public class Catering implements Customer {
   @Override
-  public void buy(){ 
-    
+  public void order(Store store) {
+    store.getOptions();
+    // pick 3 options
+
   }
 }
