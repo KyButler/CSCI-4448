@@ -35,6 +35,7 @@ public class Store {
     this.isOpen = true;
   }
 
+  // TODO: remove this it's only for debugging
   public void printInventoryCount() {
     System.out.println("Store " + id + " has: ");
     inventory.printInventoryCount();
@@ -50,5 +51,10 @@ public class Store {
 
   public List<String> getOptions() {
     return inventory.getOptions();
+  }
+
+  public boolean canSatisfyOrder(List<String> frick) {
+    return false;
+
   }
 }
