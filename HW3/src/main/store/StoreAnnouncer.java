@@ -1,6 +1,6 @@
 package main.store;
 
-// OBSERVER CLASS
+// HERE IS THE OBSERVER CLASS
 // Here the observer pattern is applied, with our anouncement being any string that the user can
 // decide when running the application. All the function does then is print out what action
 // has taken place in the store, specified by the parameter.

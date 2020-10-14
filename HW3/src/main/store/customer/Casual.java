@@ -31,11 +31,9 @@ public class Casual implements Customer {
 
       List<String> satisfiable = store.satisfiable(newOrder, day, "Casual");
 
-      // TODO: handle returning of the string
       if (satisfiable.equals(newOrder)) {
         finishedOrder = true;
       } else {
-        // TODO: handle an unsatisfied order
         // if the order can't be completed because the store has 0 of the requested
         // donut, then you want to add the roll to the list of rolls and re-try.
         if (satisfiable.size() == 0) {

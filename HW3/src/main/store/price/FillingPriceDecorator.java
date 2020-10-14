@@ -2,7 +2,7 @@ package main.store.price;
 
 import java.util.Random;
 
-// DECORATOR CLASS
+// HERE IS THE DECORATOR PATTERN
 // This class can apply fillings to the rolls we have to offer
 // Each filling costs $0.75 and this is added to the price of the order
 

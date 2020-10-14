@@ -1,5 +1,7 @@
 package main.store.customer;
 
+// HERE IS THE FACTORY PATTERN!
+
 public class CustomerFactory {
   public Customer getCustomer(String customerType){
     switch(customerType) {

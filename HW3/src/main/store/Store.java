@@ -37,6 +37,10 @@ public class Store {
     this.inventory = new Inventory(startingInventory, menu, prices);
   }
 
+  public int getId() {
+    return this.id;
+  }
+
   public void printInventory() {
     inventory.printInventory();
   }
@@ -78,7 +82,6 @@ public class Store {
     return craftedChoice;
   }
 
-  // TODO: might need customer type for logging
   public List<String> satisfiable(List<String> order, int day, String customerType) {
     List<String> satisfiable = inventory.satisfiable(order);
 
@@ -87,7 +90,6 @@ public class Store {
     if (order.equals(satisfiable)) {
       List<List<String>> rolls = new ArrayList<List<String>>();
 
-      // TODO: calculate cost of order
       double totalPrice = 0;
       for (String item : satisfiable) {
         List<String> roll = new ArrayList<String>();
@@ -157,7 +159,6 @@ public class Store {
       }
     }
     else {
-      // TODO: record why it wasn't satisiable
       transactionLog.addEvent(new Event(day, "unsatisfied", customerType));
     }
 

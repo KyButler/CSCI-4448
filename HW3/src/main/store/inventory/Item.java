@@ -8,7 +8,7 @@ public class Item {
   private double quantity; // can you even have half of a roll? Ah well, double it is just in case.
   private double price; // $ Cents are supported
 
-  Item(String name, double quantity, double initialPrice){
+  public Item(String name, double quantity, double initialPrice){
     this.name = name;
     this.quantity = quantity;
     this.price = initialPrice;
