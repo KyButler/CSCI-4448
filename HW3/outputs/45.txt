@@ -1,0 +1,2546 @@
+PS C:\Users\Kyran\Documents\Kyrans Stuff\Github\CSCI-4448\HW3>  & 'c:\Users\Kyran\.vscode\extensions\vscjava.vscode-java-debug-0.28.0\scripts\launcher.bat' 'C:\Program Files\Java\jdk-14.0.2\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-Dfile.encoding=UTF-8' '@C:\Users\Kyran\AppData\Local\Temp\cp_6cj7frjjy632m1j9e7flpsyqw.argfile' 'main.Main' 
+BEGIN JUNIT TESTS
+Store instantiation and id getting tested and functional!
+Item consuming tested and functional!
+Item addition tested and functional!
+Transaction instantiation tested and functional!
+Customer Factory Business tested and functional!
+Customer Factory Casual tested and functional!
+Customer Factory Catering tested and functional!
+Fillings Decorator tested and functional!
+Toppings Decorator tested and functional!
+Sauce Decorator tested and functional!
+END JUNIT TESTS
+
+Today is day number - 1
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 45.0 ]
+[ Egg Roll: 45.0 ]
+[ Pastry Roll: 45.0 ]
+[ Sausage Roll: 45.0 ]
+[ Jelly Roll: 45.0 ]
+--                        --
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 37.0 ]
+[ Egg Roll: 33.0 ]
+[ Pastry Roll: 36.0 ]
+[ Sausage Roll: 29.0 ]
+[ Jelly Roll: 34.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Sauce], [Spring Roll, Filling, Sauce, Topping], [Egg Roll, Sauce, Sauce, Sauce, Topping], [Egg Roll, Filling, Topping], [Pastry Roll, Topping, Topping], [Pastry Roll, Sauce], [Sausage Roll, Sauce], [Sausage Roll, Sauce, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce]]
+Price of Transaction: $21.75
+Customer Type: Business
+ORDER 2
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce], [Sausage Roll, Sauce, Topping], [Sausage Roll, Filling, Topping, Topping], [Sausage Roll, Sauce, Topping], [Egg Roll, Topping, Topping], [Egg Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Sauce], [Egg Roll, Filling, Sauce], [Egg Roll, Sauce, Sauce], [Jelly Roll, Sauce, Topping], [Jelly Roll, Filling, Topping], [Jelly Roll, Sauce], [Jelly Roll, Filling, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping, 
+Topping]]
+Price of Transaction: $36.5
+Customer Type: Catering
+ORDER 3
+Items Sold: [[Sausage Roll, Filling, Sauce, Topping, Topping], [Sausage Roll], [Sausage Roll, Filling, Sauce, Topping, Topping]]
+Price of Transaction: $7.25
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Spring Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $1.75
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Spring Roll, Filling, Topping, Topping], [Spring Roll, Filling, Topping, Topping], [Spring Roll, Filling, Topping, Topping]]
+Price of Transaction: $5.25
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $3.5
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $6.75
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Egg Roll, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $2.25
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce], [Spring Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Sauce], [Egg Roll, Filling, Sauce, Sauce], [Pastry Roll, Filling, Sauce], [Pastry Roll, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce, 
+Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce], [Jelly Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $27.5
+Customer Type: Business
+ORDER 10
+Items Sold: [[Pastry Roll, Topping, Topping], [Pastry Roll, Sauce]]
+Price of Transaction: $3.0
+Customer Type: Casual
+ORDER 11
+Items Sold: [[Sausage Roll], [Sausage Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $3.75
+Customer Type: Casual
+ORDER 12
+Items Sold: [[Pastry Roll, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 13
+Items Sold: [[Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Topping, Topping]]
+Price of Transaction: $5.0
+Customer Type: Casual
+ORDER 14
+Items Sold: [[Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Filling, Topping, Topping]]
+Price of Transaction: $6.75
+Customer Type: Casual
+ORDER 15
+Items Sold: [[Egg Roll, Topping]]
+Price of Transaction: $1.0
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Business: $49.25,
+Catering: $36.5,
+Casual: $48.75
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 1 was $134.5.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+None!
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Spring Roll: 8.0,
+Egg Roll: 12.0, 
+Pastry Roll: 9.0,
+Sausage Roll: 16.0,
+Jelly Roll: 11.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 2
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 37.0 ]
+[ Egg Roll: 33.0 ]
+[ Pastry Roll: 36.0 ]
+[ Sausage Roll: 29.0 ]
+[ Jelly Roll: 34.0 ]
+--                        --
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 28.0 ]
+[ Egg Roll: 22.0 ]
+[ Pastry Roll: 32.0 ]
+[ Sausage Roll: 22.0 ]
+[ Jelly Roll: 25.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Jelly Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Sauce, Sauce], [Jelly Roll, Sauce], [Jelly Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Topping, Topping], [Egg Roll, Filling, Topping, Topping], [Egg Roll, Filling, Sauce, Sauce, Topping], [Egg Roll, Topping], [Egg Roll, Filling, Sauce, Sauce], [Egg Roll, Topping], [Spring Roll, Sauce, Topping], [Spring Roll, Filling], [Spring Roll, Filling, Sauce, Topping, Topping], [Spring Roll, Sauce, Topping], [Spring Roll, Topping]]
+Price of Transaction: $29.0
+Customer Type: Catering
+ORDER 2
+Items Sold: [[Spring Roll, Filling, Sauce], [Spring Roll, Filling, Topping], [Egg Roll, Filling, Sauce], [Egg Roll, Filling, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Topping, Topping], [Sausage Roll, Sauce], [Jelly Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce]]
+Price of Transaction: $24.0
+Customer Type: Business
+ORDER 3
+Items Sold: [[Spring Roll, Filling], [Spring Roll, Topping, Topping], [Egg Roll, Filling, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping], [Pastry Roll, Sauce], [Pastry Roll, Sauce, Sauce], [Sausage Roll, Filling, Sauce], [Sausage Roll, Sauce], [Jelly Roll, Filling, 
+Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce]]
+Price of Transaction: $20.0
+Customer Type: Business
+ORDER 4
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Topping]]
+Price of Transaction: $8.75
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Egg Roll, Sauce, Topping], [Egg Roll, Filling, Sauce, Topping]]
+Price of Transaction: $3.75
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Catering: $29.0,
+Business: $44.0,
+Casual: $12.5
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 2 was $85.5.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+None!
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Jelly Roll: 9.0,
+Egg Roll: 11.0,
+Spring Roll: 9.0,
+Pastry Roll: 4.0,
+Sausage Roll: 7.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 3
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 28.0 ]
+[ Egg Roll: 22.0 ]
+[ Pastry Roll: 32.0 ]
+[ Sausage Roll: 22.0 ]
+[ Jelly Roll: 25.0 ]
+--                        --
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 16.0 ]
+[ Egg Roll: 9.0 ]
+[ Pastry Roll: 16.0 ]
+[ Sausage Roll: 16.0 ]
+[ Jelly Roll: 9.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Egg Roll, Sauce], [Egg Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $3.25
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Spring Roll, Topping], [Spring Roll, Sauce, Sauce], [Egg Roll, Filling, Topping, Topping], [Egg Roll, Sauce, Topping, Topping], [Pastry Roll], [Pastry Roll, Sauce, Sauce], [Sausage Roll, Filling], [Sausage Roll, Filling, Sauce, Topping], [Jelly Roll, Sauce, 
+Sauce, Sauce, Topping], [Jelly Roll, Filling, Topping, Topping]]
+Price of Transaction: $19.75
+Customer Type: Business
+ORDER 3
+Items Sold: [[Spring Roll], [Spring Roll, Filling, Sauce, Topping], [Egg Roll, Sauce, Sauce], [Egg Roll, Sauce, Sauce], [Pastry Roll, Filling, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Sauce], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Topping], [Jelly Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $23.25
+Customer Type: Business
+ORDER 4
+Items Sold: [[Spring Roll, Sauce]]
+Price of Transaction: $1.0
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Spring Roll, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce], [Spring Roll, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce], [Pastry Roll, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling], [Pastry Roll, Filling, Sauce, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce, Topping], [Jelly Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce]]
+Price of Transaction: $38.5
+Customer Type: Catering
+ORDER 6
+Items Sold: [[Jelly Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce], [Jelly Roll, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Topping, Topping], [Pastry Roll, Filling], [Pastry Roll, Sauce, Topping, Topping], [Pastry Roll, Filling, Topping, Topping], [Pastry Roll, Filling, Topping, Topping], [Egg Roll, Sauce], [Egg Roll, Sauce, Sauce, Topping, Topping], [Egg Roll], [Egg Roll, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $34.75
+Customer Type: Catering
+ORDER 7
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Topping, Topping], [Spring Roll, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Sauce], [Egg Roll, Filling], [Pastry Roll, Sauce, Sauce, Sauce], [Pastry Roll, Topping, Topping], [Sausage Roll, Topping, Topping], [Sausage Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Topping, Topping]]
+Price of Transaction: $24.25
+Customer Type: Business
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $4.25,
+Business: $67.25,
+Catering: $73.25
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 3 was $144.75.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+None!
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Egg Roll: 13.0,
+Spring Roll: 12.0,
+Pastry Roll: 16.0,
+Sausage Roll: 6.0,
+Jelly Roll: 16.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 4
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 16.0 ]
+[ Egg Roll: 9.0 ]
+[ Pastry Roll: 16.0 ]
+[ Sausage Roll: 16.0 ]
+[ Jelly Roll: 9.0 ]
+--                        --
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 9.0 ]
+[ Egg Roll: 2.0 ]
+[ Pastry Roll: 9.0 ]
+[ Sausage Roll: 11.0 ]
+[ Jelly Roll: 6.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Jelly Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $3.25
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Spring Roll], [Spring Roll, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Topping], [Spring Roll, Sauce, Sauce, Sauce], [Egg Roll, Sauce, Topping, Topping], [Egg Roll, Topping, Topping], [Egg Roll, Topping, Topping], [Egg Roll, Sauce, Sauce], [Egg Roll, Sauce], [Pastry Roll, Filling, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce], [Pastry Roll, Sauce, Sauce, Topping], [Pastry Roll, Topping]]
+Price of Transaction: $27.75
+Customer Type: Catering
+ORDER 3
+Items Sold: [[Sausage Roll, Filling, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling]]
+Price of Transaction: $7.5
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Spring Roll, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping], [Egg Roll, Sauce, Sauce, Sauce, Topping], [Egg Roll, Sauce, Topping, Topping], [Pastry Roll], [Pastry Roll, Sauce, Sauce], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $22.75
+Customer Type: Business
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $10.75,
+Catering: $27.75,
+Business: $22.75
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 4 was $61.25.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+None!
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Jelly Roll: 3.0,
+Spring Roll: 7.0,
+Egg Roll: 7.0,
+Pastry Roll: 7.0,
+Sausage Roll: 5.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 5
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 9.0 ]
+[ Egg Roll: 2.0 ]
+[ Pastry Roll: 9.0 ]
+[ Sausage Roll: 11.0 ]
+[ Jelly Roll: 6.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Pastry Roll.
+Hi, this is the Store Announcer. The store has officially ran out of Jelly Roll.
+Hi, this is the Store Announcer. The store has officially ran out of Sausage Roll.
+Hi, this is the Store Announcer. The store has officially ran out of Spring Roll.
+Hi, this is the Store Announcer. The store has officially ran out of Egg Roll.
+Hi, this is the Store Announcer. The store has officially closed due to no stock.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 0.0 ]
+[ Egg Roll: 0.0 ]
+[ Pastry Roll: 0.0 ]
+[ Sausage Roll: 0.0 ]
+[ Jelly Roll: 0.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Pastry Roll, Filling, Sauce], [Pastry Roll, Sauce, Sauce, Topping], [Pastry Roll, Filling, Topping, Topping]]
+Price of Transaction: $6.75
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $3.5
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Spring Roll]]
+Price of Transaction: $0.5
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Sausage Roll, Filling, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $8.0
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $3.0
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Egg Roll, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce], [Spring Roll], [Pastry Roll, Sauce, Sauce, Sauce, Topping], [Spring Roll, Sauce, Sauce], [Jelly Roll, Sauce], [Pastry Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Topping], [Jelly Roll, Sauce, Sauce], [Spring Roll, Filling, Sauce, Topping, Topping]]
+Price of Transaction: $34.5
+Customer Type: Catering
+ORDER 7
+Items Sold: [[Pastry Roll, Filling, Topping, Topping], [Pastry Roll, Sauce, Sauce, Topping], [Pastry Roll, Sauce, Topping]]
+Price of Transaction: $6.25
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Jelly Roll, Sauce, Sauce, Sauce], [Sausage Roll, Topping, Topping], [Sausage Roll, Filling, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Topping, Topping], [Sausage Roll, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce], [Sausage Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Topping, Topping]]
+Price of Transaction: $26.5
+Customer Type: Catering
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $28.0,
+Catering: $61.0
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 5 was $89.0.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Catering: 2
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Pastry Roll: 9.0,
+Sausage Roll: 11.0,
+Spring Roll: 9.0,
+Egg Roll: 2.0,
+Jelly Roll: 6.0
+
+
+-- THE STORE DID CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 6
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 45.0 ]
+[ Egg Roll: 45.0 ]
+[ Pastry Roll: 45.0 ]
+[ Sausage Roll: 45.0 ]
+[ Jelly Roll: 45.0 ]
+--                        --
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 29.0 ]
+[ Egg Roll: 32.0 ]
+[ Pastry Roll: 24.0 ]
+[ Sausage Roll: 31.0 ]
+[ Jelly Roll: 26.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Topping], [Spring Roll, Sauce, Sauce, Sauce, Topping], [Egg Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Topping], [Pastry Roll, Filling, Sauce, Topping], [Pastry Roll, Filling, Sauce], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce], [Jelly Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $26.75
+Customer Type: Business
+ORDER 2
+Items Sold: [[Spring Roll, Sauce, Sauce, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll], [Egg Roll], [Pastry Roll, Sauce, Sauce, Topping], [Pastry Roll, Sauce], [Sausage Roll, Filling, Topping, Topping], [Sausage Roll, Sauce, Sauce, Topping], [Jelly Roll, Sauce], [Jelly Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $21.0
+Customer Type: Business
+ORDER 3
+Items Sold: [[Pastry Roll, Sauce, Topping, Topping], [Pastry Roll], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce], [Egg Roll, Filling, Sauce, Sauce, Sauce], [Egg Roll, Sauce], 
+[Egg Roll, Filling, Sauce, Sauce], [Egg Roll, Filling, Topping], [Egg Roll, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce, Topping], [Jelly Roll, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $37.75
+Customer Type: Catering
+ORDER 4
+Items Sold: [[Sausage Roll, Filling, Topping, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Egg Roll, Filling, Sauce], [Egg Roll, Sauce, Sauce]]
+Price of Transaction: $3.75
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Pastry Roll], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Topping], [Pastry Roll, Filling, Topping, Topping], [Spring Roll, Sauce, Sauce], [Spring Roll], [Spring Roll, Topping, Topping], [Spring Roll, Filling, Sauce, Topping], [Spring Roll, Topping], [Jelly Roll, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Filling, Topping], [Jelly Roll, Filling, Sauce], [Jelly Roll, Sauce]]
+Price of Transaction: $31.0
+Customer Type: Catering
+ORDER 7
+Items Sold: [[Spring Roll, Topping], [Spring Roll, Sauce, Sauce], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping], [Egg Roll, Topping, Topping], [Pastry Roll, Sauce], [Pastry Roll, Filling, Sauce], [Sausage Roll, Sauce, Topping], [Sausage Roll, Filling], [Jelly Roll, Filling, Sauce, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $21.5
+Customer Type: Business
+ORDER 8
+Items Sold: [[Sausage Roll, Sauce], [Sausage Roll, Sauce, Sauce]]
+Price of Transaction: $4.0
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Spring Roll, Filling, Sauce], [Spring Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling], [Spring Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Topping], [Sausage Roll, 
+Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll], [Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Topping], [Pastry Roll, Filling, Topping, Topping], [Pastry Roll, Sauce], [Pastry Roll], [Pastry Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $35.0
+Customer Type: Catering
+ORDER 10
+Items Sold: [[Jelly Roll, Sauce, Topping], [Jelly Roll, Filling, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $8.25
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Business: $69.25, 
+Catering: $103.75,
+Casual: $18.5
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 6 was $191.5.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS -- 
+None!
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Spring Roll: 16.0,
+Egg Roll: 13.0,
+Pastry Roll: 21.0,
+Sausage Roll: 14.0,
+Jelly Roll: 19.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 7
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 29.0 ]
+[ Egg Roll: 32.0 ]
+[ Pastry Roll: 24.0 ]
+[ Sausage Roll: 31.0 ]
+[ Jelly Roll: 26.0 ]
+--                        --
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 14.0 ]
+[ Egg Roll: 21.0 ]
+[ Pastry Roll: 7.0 ]
+[ Sausage Roll: 25.0 ]
+[ Jelly Roll: 5.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Spring Roll, Filling, Sauce], [Spring Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce], [Pastry Roll, Filling, Topping], [Sausage Roll, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $25.0
+Customer Type: Business
+ORDER 2
+Items Sold: [[Spring Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Topping], [Egg Roll, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce], [Jelly Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $26.5
+Customer Type: Business
+ORDER 3
+Items Sold: [[Spring Roll, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Spring Roll, Topping, Topping], [Spring Roll, Filling, Topping], [Spring Roll, Filling, Sauce, Topping], [Jelly Roll, Sauce], [Jelly Roll, Filling, Topping], [Jelly Roll, Filling, Sauce], [Jelly Roll, Topping], [Jelly Roll, Filling, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Sauce], [Pastry Roll]]
+Price of Transaction: $35.25
+Customer Type: Catering
+ORDER 4
+Items Sold: [[Jelly Roll, Filling, Sauce, Sauce, Sauce], [Jelly Roll, Filling]]
+Price of Transaction: $6.0
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Spring Roll, Sauce], [Spring Roll, Sauce, Sauce, Topping], [Spring Roll, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $4.75
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Spring Roll, Filling], [Spring Roll, Sauce], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling], [Pastry Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Topping, Topping]]
+Price of Transaction: $26.25
+Customer Type: Business
+ORDER 7
+Items Sold: [[Egg Roll], [Egg Roll, Filling, Sauce, Topping], [Egg Roll, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Topping], [Jelly Roll, Topping], [Jelly Roll, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Sauce, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $37.0
+Customer Type: Catering
+ORDER 8
+Items Sold: [[Pastry Roll]]
+Price of Transaction: $1.0
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Spring Roll, Sauce, Topping, Topping]]
+Price of Transaction: $1.5
+Customer Type: Casual
+ORDER 10
+Items Sold: [[Jelly Roll], [Jelly Roll, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $6.75
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Business: $77.75,
+Catering: $72.25,
+Casual: $20.0
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 7 was $170.0.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+None!
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Spring Roll: 15.0,
+Egg Roll: 11.0,
+Pastry Roll: 17.0,
+Sausage Roll: 6.0,
+Jelly Roll: 21.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 8
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 14.0 ]
+[ Egg Roll: 21.0 ]
+[ Pastry Roll: 7.0 ]
+[ Sausage Roll: 25.0 ]
+[ Jelly Roll: 5.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Pastry Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 1.0 ]
+[ Egg Roll: 2.0 ]
+[ Pastry Roll: 0.0 ]
+[ Sausage Roll: 9.0 ]
+[ Jelly Roll: 2.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Sauce], [Egg Roll, Topping, Topping], [Egg Roll, Filling, Sauce, Topping], [Pastry Roll, Sauce], [Pastry Roll], [Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce], [Jelly Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $24.5
+Customer Type: Business
+ORDER 2
+Items Sold: [[Sausage Roll]]
+Price of Transaction: $1.25
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Sausage Roll, Sauce, Sauce, Sauce], [Egg Roll, Filling, Sauce, Topping], [Spring Roll, Topping], [Spring Roll, Filling, Sauce], [Egg Roll, Filling, Sauce, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Sauce], [Egg Roll, Filling], [Spring Roll, Sauce, Sauce, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Egg Roll], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $34.75
+Customer Type: Catering
+ORDER 4
+Items Sold: [[Sausage Roll, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $5.5
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $3.5
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Pastry Roll, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $4.75
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Spring Roll, Sauce, Sauce, Sauce], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Sausage Roll], [Egg Roll, Sauce], [Pastry Roll, Filling, Sauce, Sauce], [Egg Roll, Sauce, Sauce, Sauce, Topping], [Egg Roll, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Sauce], [Egg Roll, Filling, Sauce, Topping, Topping], [Pastry Roll, Sauce, Topping], [Spring Roll, Filling, Topping], [Sausage Roll, Sauce]]
+Price of Transaction: $32.75
+Customer Type: Catering
+ORDER 8
+Items Sold: [[Sausage Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling]]
+Price of Transaction: $5.0
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Spring Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Sauce, Sauce], [Spring Roll]]
+Price of Transaction: $4.0
+Customer Type: Casual
+ORDER 10
+Items Sold: [[Jelly Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $2.75
+Customer Type: Casual
+ORDER 11
+Items Sold: [[Egg Roll, Sauce, Topping], [Egg Roll, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $6.5
+Customer Type: Casual
+ORDER 12
+Items Sold: [[Egg Roll, Filling, Sauce], [Egg Roll, Filling, Sauce, Sauce], [Egg Roll, Topping]]
+Price of Transaction: $5.5
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Business: $24.5,
+Casual: $38.75,
+Catering: $67.5
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 8 was $130.75.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Catering: 2, 
+Casual: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Spring Roll: 13.0, 
+Egg Roll: 19.0,
+Pastry Roll: 7.0,
+Sausage Roll: 16.0,
+Jelly Roll: 3.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 9
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 1.0 ]
+[ Egg Roll: 2.0 ]
+[ Pastry Roll: 45.0 ]
+[ Sausage Roll: 9.0 ]
+[ Jelly Roll: 2.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Jelly Roll.
+Hi, this is the Store Announcer. The store has officially ran out of Sausage Roll.
+Hi, this is the Store Announcer. The store has officially ran out of Spring Roll.
+Hi, this is the Store Announcer. The store has officially ran out of Egg Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 0.0 ]
+[ Egg Roll: 0.0 ]
+[ Pastry Roll: 5.0 ]
+[ Sausage Roll: 0.0 ]
+[ Jelly Roll: 0.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Jelly Roll, Filling, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $6.0
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $8.25
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Sausage Roll, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $8.25
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Pastry Roll], [Pastry Roll, Topping, Topping], [Sausage Roll, Filling, Sauce, Topping, Topping], [Pastry Roll, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling], [Pastry Roll, Filling, Sauce, Topping], [Pastry Roll, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Topping], [Sausage Roll, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Topping, Topping], [Pastry Roll, Sauce, Topping], [Pastry Roll, Topping], [Pastry Roll, Topping]]     
+Price of Transaction: $31.25
+Customer Type: Catering
+ORDER 5
+Items Sold: [[Pastry Roll, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce], [Sausage Roll], [Egg Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Topping], [Sausage Roll, Filling, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling], [Spring Roll, Sauce, Topping]]
+Price of Transaction: $37.0
+Customer Type: Catering
+ORDER 6
+Items Sold: [[Egg Roll, Filling, Topping]]
+Price of Transaction: $1.75
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Pastry Roll, Filling, Topping, Topping], [Pastry Roll, Filling], [Pastry Roll, Topping, Topping], [Pastry Roll, Filling], [Pastry Roll, Sauce, Sauce, Sauce], [Pastry Roll, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Sauce, Topping, Topping], [Pastry Roll, Sauce], [Pastry Roll, Sauce, Sauce, Sauce], [Pastry Roll, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce]]
+Price of Transaction: $34.75
+Customer Type: Catering
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $24.25,
+Catering: $103.0
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 9 was $127.25.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS -- 
+Casual: 2,
+Business: 2,
+Catering: 3
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Jelly Roll: 2.0,
+Pastry Roll: 40.0,
+Sausage Roll: 9.0,
+Egg Roll: 2.0,
+Spring Roll: 1.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 10
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 45.0 ]
+[ Egg Roll: 45.0 ]
+[ Pastry Roll: 5.0 ]
+[ Sausage Roll: 45.0 ]
+[ Jelly Roll: 45.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Pastry Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 27.0 ]
+[ Egg Roll: 38.0 ]
+[ Pastry Roll: 0.0 ]
+[ Sausage Roll: 28.0 ]
+[ Jelly Roll: 26.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Spring Roll, Filling], [Spring Roll, Topping, Topping]]
+Price of Transaction: $2.25
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Spring Roll, Topping, Topping], [Spring Roll, Filling, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce], [Egg Roll, Filling, Topping], [Pastry Roll, Filling, Topping, Topping], [Pastry Roll, Filling, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Topping], [Jelly Roll, Topping, Topping], [Jelly Roll, Filling, Sauce]]
+Price of Transaction: $22.5
+Customer Type: Business
+ORDER 3
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping]]
+Price of Transaction: $5.0
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Spring Roll, Sauce, Sauce], [Spring Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce], [Egg Roll, Sauce, Topping, Topping], [Pastry Roll, Topping, Topping], [Pastry Roll], [Sausage Roll], [Sausage Roll, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce, Sauce], [Jelly Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $21.25
+Customer Type: Business
+ORDER 5
+Items Sold: [[Pastry Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $3.25
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Sausage Roll, Topping], [Sausage Roll, Filling, Sauce, Sauce], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce, Sauce], [Spring Roll, Topping], [Spring Roll, Sauce, Sauce], [Spring Roll, Topping], [Spring Roll, Sauce, Topping, Topping], [Spring Roll, Sauce], [Jelly Roll, Sauce, Sauce, Topping], [Jelly Roll, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Sauce], [Jelly Roll]]
+Price of Transaction: $31.5
+Customer Type: Catering
+ORDER 7
+Items Sold: [[Jelly Roll, Filling, Sauce], [Jelly Roll, Topping, Topping], [Jelly Roll, Topping, Topping], [Jelly Roll, Sauce, Topping, Topping], [Jelly Roll, Sauce, Topping, Topping], [Spring Roll, Sauce, Sauce, Sauce], [Spring Roll, Topping], [Spring Roll, Filling, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Topping], [Spring Roll, Filling, Sauce], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce], [Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Topping, Topping], [Sausage Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $35.25
+Customer Type: Catering
+ORDER 8
+Items Sold: [[Sausage Roll, Topping, Topping], [Sausage Roll, Filling], [Sausage Roll, Filling, Topping, Topping]]
+Price of Transaction: $6.25
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Jelly Roll, Sauce, Sauce], [Jelly Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $5.75
+Customer Type: Casual
+ORDER 10
+Items Sold: [[Egg Roll, Sauce, Topping, Topping], [Egg Roll, Sauce, Topping], [Egg Roll, Filling, Sauce, Topping]]
+Price of Transaction: $5.5
+Customer Type: Casual
+ORDER 11
+Items Sold: [[Jelly Roll], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling]]
+Price of Transaction: $8.0
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $36.0,
+Business: $43.75,
+Catering: $66.75
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 10 was $146.5.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Business: 1, 
+Casual: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Spring Roll: 18.0,
+Egg Roll: 7.0,
+Pastry Roll: 5.0,
+Sausage Roll: 17.0,
+Jelly Roll: 19.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 11
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 27.0 ]
+[ Egg Roll: 38.0 ]
+[ Pastry Roll: 45.0 ]
+[ Sausage Roll: 28.0 ]
+[ Jelly Roll: 26.0 ]
+--                        --
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 18.0 ]
+[ Egg Roll: 29.0 ]
+[ Pastry Roll: 41.0 ]
+[ Sausage Roll: 19.0 ]
+[ Jelly Roll: 20.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Sausage Roll, Filling, Topping], [Sausage Roll, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Topping], [Sausage Roll, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping], [Egg Roll, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping], [Egg Roll, Filling, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Topping, Topping], [Spring Roll, Sauce, Sauce], [Spring Roll, Sauce, Sauce, Sauce], [Spring Roll, Sauce], [Spring Roll, Filling, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $33.0
+Customer Type: Catering
+ORDER 2
+Items Sold: [[Jelly Roll, Filling, Sauce, Sauce], [Jelly Roll, Sauce]]
+Price of Transaction: $5.25
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Spring Roll, Filling, Topping, Topping], [Spring Roll, Topping, Topping], [Egg Roll, Sauce, Sauce, Sauce, Topping], [Egg Roll, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce], [Sausage Roll, 
+Filling, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Sauce], [Jelly Roll, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $23.75
+Customer Type: Business
+ORDER 4
+Items Sold: [[Spring Roll, Sauce, Topping], [Spring Roll, Sauce, Sauce, Topping, Topping], [Egg Roll], [Egg Roll, Filling], [Pastry Roll, Filling, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce], [Sausage Roll, Sauce, 
+Sauce, Topping, Topping], [Jelly Roll, Topping, Topping], [Jelly Roll, Topping, Topping]]
+Price of Transaction: $20.75
+Customer Type: Business
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Catering: $33.0,
+Casual: $5.25,
+Business: $44.5
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 11 was $82.75.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+None!
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Sausage Roll: 9.0,
+Egg Roll: 9.0,
+Spring Roll: 9.0,
+Jelly Roll: 6.0,
+Pastry Roll: 4.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 12
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 18.0 ]
+[ Egg Roll: 29.0 ]
+[ Pastry Roll: 41.0 ]
+[ Sausage Roll: 19.0 ]
+[ Jelly Roll: 20.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Sausage Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 3.0 ]
+[ Egg Roll: 11.0 ]
+[ Pastry Roll: 26.0 ]
+[ Sausage Roll: 0.0 ]
+[ Jelly Roll: 5.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Spring Roll, Filling, Sauce, Topping], [Spring Roll, Sauce, Topping, Topping], [Egg Roll, Filling], [Egg Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Topping], [Pastry Roll, Topping, Topping], [Sausage Roll, Filling], [Sausage 
+Roll, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Topping], [Jelly Roll, Filling, Sauce]]
+Price of Transaction: $22.25
+Customer Type: Business
+ORDER 2
+Items Sold: [[Egg Roll, Filling, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $3.25
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Pastry Roll, Filling, Sauce, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Topping]]
+Price of Transaction: $5.75
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Egg Roll, Filling], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Topping, Topping]]
+Price of Transaction: $6.25
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Egg Roll, Topping], [Egg Roll, Filling], [Egg Roll, Filling, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce], [Pastry Roll, Sauce, Topping, Topping], [Pastry Roll, Filling, Topping, Topping], [Spring Roll, Filling, Sauce], [Spring Roll, Filling, Topping], [Spring Roll, Filling, Sauce, Topping], [Spring Roll, Filling, Sauce, Topping], [Spring Roll, Sauce, Topping, Topping]]
+Price of Transaction: $31.5
+Customer Type: Catering
+ORDER 7
+Items Sold: [[Jelly Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $3.0
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Spring Roll, Sauce, Topping]]
+Price of Transaction: $1.25
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Spring Roll, Filling, Sauce], [Spring Roll], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping], [Egg Roll, Filling, Topping], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Sauce, 
+Topping], [Sausage Roll, Filling, Topping], [Jelly Roll, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce]]
+Price of Transaction: $23.25
+Customer Type: Business
+ORDER 10
+Items Sold: [[Jelly Roll, Filling, Sauce, Sauce, Sauce], [Jelly Roll, Sauce, Sauce, Sauce], [Jelly Roll, Sauce, Sauce, Topping], [Jelly Roll, Filling, Topping, Topping], [Jelly Roll, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Topping, Topping], [Sausage Roll, Sauce, Sauce, Topping], [Sausage Roll, Topping], [Egg Roll, Filling], [Egg Roll, Filling, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping], [Egg Roll, Filling, Topping], 
+[Egg Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $38.0
+Customer Type: Catering
+ORDER 11
+Items Sold: [[Pastry Roll, Filling, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Topping, Topping]]
+Price of Transaction: $8.5
+Customer Type: Casual
+ORDER 12
+Items Sold: [[Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $6.25
+Customer Type: Casual
+ORDER 13
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $4.0
+Customer Type: Casual
+ORDER 14
+Items Sold: [[Sausage Roll, Sauce, Sauce, Topping], [Sausage Roll, Filling, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling], [Jelly Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce], [Jelly Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping], [Spring Roll, Filling, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping], [Spring Roll, Sauce, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Topping], [Spring Roll, Filling, Topping]]
+Price of Transaction: $39.5
+Customer Type: Catering
+ORDER 15
+Items Sold: [[Pastry Roll, Filling, Sauce, Sauce], [Pastry Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $5.0
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Business: $45.5,
+Casual: $45.75,
+Catering: $109.0
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 12 was $200.25.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+None!
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Spring Roll: 15.0,
+Egg Roll: 18.0, 
+Pastry Roll: 15.0,
+Sausage Roll: 19.0,
+Jelly Roll: 15.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 13
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 3.0 ]
+[ Egg Roll: 11.0 ]
+[ Pastry Roll: 26.0 ]
+[ Sausage Roll: 45.0 ]
+[ Jelly Roll: 5.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Spring Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 0.0 ]
+[ Egg Roll: 3.0 ]
+[ Pastry Roll: 12.0 ]
+[ Sausage Roll: 21.0 ]
+[ Jelly Roll: 1.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Jelly Roll], [Jelly Roll, Filling]]
+Price of Transaction: $3.75
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Spring Roll]]
+Price of Transaction: $0.5
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Sausage Roll, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $9.25
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Spring Roll, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping]]
+Price of Transaction: $4.0
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Egg Roll, Sauce]]
+Price of Transaction: $1.25
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Pastry Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $2.25
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Sausage Roll, Sauce, Topping, Topping], [Sausage Roll, Filling, Topping]]
+Price of Transaction: $4.5
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Egg Roll, Filling, Sauce, Topping], [Egg Roll, Filling, Sauce], [Egg Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $6.25
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Pastry Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Topping]]
+Price of Transaction: $8.5
+Customer Type: Casual
+ORDER 10
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll]]
+Price of Transaction: $8.25
+Customer Type: Casual
+ORDER 11
+Items Sold: [[Sausage Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce], [Sausage Roll], [Egg Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Topping], [Sausage Roll, Filling]]
+Price of Transaction: $38.25
+Customer Type: Catering
+ORDER 12
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Topping], [Pastry Roll, Filling, Topping], [Sausage Roll, Filling, Sauce, Topping], [Sausage Roll, Filling, Sauce, Topping], [Pastry Roll, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Topping, Topping], [Sausage Roll, Sauce, Topping], [Pastry Roll, Filling], [Pastry Roll, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $38.5
+Customer Type: Catering
+ORDER 13
+Items Sold: [[Egg Roll], [Egg Roll, Sauce, Sauce]]
+Price of Transaction: $2.5
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $51.0,
+Catering: $76.75
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 13 was $127.75.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Casual: 2,
+Catering: 2,
+Business: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Jelly Roll: 4.0,
+Spring Roll: 3.0,
+Sausage Roll: 24.0,
+Egg Roll: 8.0,
+Pastry Roll: 14.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 14
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 45.0 ]
+[ Egg Roll: 3.0 ]
+[ Pastry Roll: 12.0 ]
+[ Sausage Roll: 21.0 ]
+[ Jelly Roll: 1.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Egg Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 32.0 ]
+[ Egg Roll: 0.0 ]
+[ Pastry Roll: 2.0 ]
+[ Sausage Roll: 8.0 ]
+[ Jelly Roll: 1.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Egg Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $8.5
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Pastry Roll, Filling, Sauce, Topping, Topping], [Pastry Roll], [Pastry Roll, Filling, Sauce, Sauce, Topping]]
+Price of Transaction: $6.75
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Sausage Roll, Filling, Topping, Topping], [Sausage Roll], [Sausage Roll, Filling]]
+Price of Transaction: $5.75
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Sausage Roll, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce], [Spring Roll, Filling], [Sausage Roll, Filling, Sauce, Sauce, Topping], [Spring Roll, Filling, Sauce], [Pastry Roll, Filling, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce], [Spring Roll, Filling, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce], [Sausage Roll, Filling, Topping], [Spring Roll, Filling, Sauce, Topping], [Sausage Roll, Filling, Sauce, Topping], [Spring Roll, Sauce]]
+Price of Transaction: $34.0
+Customer Type: Catering
+ORDER 5
+Items Sold: [[Spring Roll, Filling], [Spring Roll, Topping], [Spring Roll, Filling, Topping, Topping], [Spring Roll, Sauce, Sauce], [Spring Roll, Filling, Topping, Topping], [Sausage Roll, Filling], [Sausage Roll, Sauce, Sauce, Sauce], [Sausage Roll, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Topping], [Pastry Roll, Topping], [Pastry Roll, Filling, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce], [Pastry Roll, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce]]   
+Price of Transaction: $30.75
+Customer Type: Catering
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $21.0,
+Catering: $64.75
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 14 was $85.75.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Casual: 2,
+Catering: 1,
+Business: 3
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Egg Roll: 3.0,
+Pastry Roll: 10.0,
+Sausage Roll: 13.0,
+Spring Roll: 13.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 15
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 32.0 ]
+[ Egg Roll: 45.0 ]
+[ Pastry Roll: 2.0 ]
+[ Sausage Roll: 8.0 ]
+[ Jelly Roll: 1.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Jelly Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 23.0 ]
+[ Egg Roll: 35.0 ]
+[ Pastry Roll: 1.0 ]
+[ Sausage Roll: 5.0 ]
+[ Jelly Roll: 0.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Spring Roll, Sauce, Sauce]]
+Price of Transaction: $1.5
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Sausage Roll, Sauce, Topping], [Sausage Roll, Sauce, Topping, Topping], [Sausage Roll, Sauce, Topping]]
+Price of Transaction: $6.25
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Pastry Roll]]
+Price of Transaction: $1.0
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Spring Roll, Filling, Sauce, Topping, Topping], [Spring Roll, Sauce, Topping], [Spring Roll, Filling, Topping, Topping]]
+Price of Transaction: $5.25
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Egg Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Topping, Topping], [Egg Roll, Topping, Topping], [Egg Roll, Filling, Topping, Topping], [Egg Roll, Filling, Sauce, Topping], [Egg Roll, Filling, Topping, Topping], [Egg Roll, Sauce, Topping], [Spring Roll, Sauce], [Spring Roll, Filling, Topping, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $32.25
+Customer Type: Catering
+ORDER 6
+Items Sold: [[Jelly Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $3.0
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $17.0,
+Catering: $32.25
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 15 was $49.25.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Business: 1,
+Catering: 1,
+Casual: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Spring Roll: 9.0,
+Sausage Roll: 3.0,
+Pastry Roll: 1.0,
+Egg Roll: 10.0,
+Jelly Roll: 1.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 16
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 23.0 ]
+[ Egg Roll: 35.0 ]
+[ Pastry Roll: 1.0 ]
+[ Sausage Roll: 5.0 ]
+[ Jelly Roll: 45.0 ]
+--                        --
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 18.0 ]
+[ Egg Roll: 27.0 ]
+[ Pastry Roll: 1.0 ]
+[ Sausage Roll: 5.0 ]
+[ Jelly Roll: 36.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Spring Roll, Topping, Topping]]
+Price of Transaction: $1.0
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Jelly Roll, Sauce, Topping]]
+Price of Transaction: $2.25
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Jelly Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll]]
+Price of Transaction: $4.75
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Egg Roll, Filling, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $3.25
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Egg Roll, Topping, Topping], [Egg Roll, Sauce, Topping]]
+Price of Transaction: $2.75
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Jelly Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping], [Spring Roll, Filling, Topping, Topping], [Jelly Roll, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce], [Egg Roll, Filling], [Egg Roll, Sauce, Sauce, Sauce], [Egg Roll, Sauce, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce], [Jelly Roll, Filling, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping], [Spring Roll], [Spring Roll, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $36.5
+Customer Type: Catering
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $14.0,
+Catering: $36.5
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 16 was $50.5.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Business: 3,
+Catering: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Spring Roll: 5.0,
+Jelly Roll: 9.0,
+Egg Roll: 8.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 17
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 18.0 ]
+[ Egg Roll: 27.0 ]
+[ Pastry Roll: 1.0 ]
+[ Sausage Roll: 5.0 ]
+[ Jelly Roll: 36.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Pastry Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 10.0 ]
+[ Egg Roll: 7.0 ]
+[ Pastry Roll: 0.0 ]
+[ Sausage Roll: 1.0 ]
+[ Jelly Roll: 22.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Egg Roll, Filling, Sauce], [Egg Roll, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $5.25
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Topping], [Egg Roll, Filling], [Jelly Roll, Filling, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping], [Jelly Roll], [Egg Roll, Filling, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping], [Egg Roll, Filling, Topping], [Sausage Roll, Filling], [Spring Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce], [Egg Roll, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $36.5
+Customer Type: Catering
+ORDER 3
+Items Sold: [[Jelly Roll, Sauce, Topping, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping], [Egg Roll, Sauce], [Jelly Roll, Sauce], [Jelly Roll, Sauce, Sauce], [Jelly Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll], [Egg Roll, Filling, Topping], [Egg Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Filling, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Filling, Topping]]
+Price of Transaction: $38.5
+Customer Type: Catering
+ORDER 5
+Items Sold: [[Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Topping], [Egg Roll, Filling]]
+Price of Transaction: $6.75
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Spring Roll, Filling, Topping, Topping], [Spring Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $3.5
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Spring Roll, Sauce]]
+Price of Transaction: $1.0
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Sausage Roll, Topping, Topping], [Sausage Roll, Sauce, Topping], [Sausage Roll, Topping, Topping]]
+Price of Transaction: $5.5
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Pastry Roll, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 10
+Items Sold: [[Egg Roll, Filling, Sauce, Topping], [Egg Roll, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $4.5
+Customer Type: Casual
+ORDER 11
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $34.0,
+Catering: $75.0
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 17 was $109.0.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Catering: 2,
+Business: 1,
+Casual: 2
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Egg Roll: 20.0,
+Jelly Roll: 14.0,
+Sausage Roll: 4.0,
+Spring Roll: 8.0,
+Pastry Roll: 1.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 18
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 10.0 ]
+[ Egg Roll: 7.0 ]
+[ Pastry Roll: 45.0 ]
+[ Sausage Roll: 1.0 ]
+[ Jelly Roll: 22.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Sausage Roll.
+Hi, this is the Store Announcer. The store has officially ran out of Egg Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 4.0 ]
+[ Egg Roll: 0.0 ]
+[ Pastry Roll: 20.0 ]
+[ Sausage Roll: 0.0 ]
+[ Jelly Roll: 7.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Sausage Roll]]
+Price of Transaction: $1.25
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Egg Roll, Sauce], [Egg Roll, Filling, Topping, Topping], [Egg Roll, Filling, Sauce, Sauce, Topping, Topping], [Egg Roll, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Topping, Topping], [Jelly Roll, Sauce], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce], [Pastry Roll, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $39.5
+Customer Type: Catering
+ORDER 3
+Items Sold: [[Pastry Roll, Sauce, Topping], [Pastry Roll, Sauce, Sauce, Topping], [Pastry Roll, Sauce, Sauce], [Jelly Roll, Filling, Topping], [Jelly Roll, Sauce, Topping], [Pastry Roll, Sauce, Sauce], [Pastry Roll, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, 
+Sauce, Sauce], [Pastry Roll, Filling], [Pastry Roll, Filling, Sauce, Sauce], [Pastry Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping], [Spring Roll, Topping, Topping], [Pastry Roll, Sauce, Topping], [Egg Roll, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $33.5
+Customer Type: Catering
+ORDER 4
+Items Sold: [[Spring Roll, Sauce, Topping, Topping], [Spring Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $4.0
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Jelly Roll, Filling], [Jelly Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $5.25
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Jelly Roll, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $6.5
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Pastry Roll, Filling, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Sauce, Topping, Topping], [Pastry Roll], [Pastry Roll, Filling, Sauce, Topping], [Egg Roll, Sauce, Topping, Topping], [Jelly Roll, Sauce], [Pastry Roll, Filling, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll], [Pastry Roll, Topping, Topping]]
+Price of Transaction: $34.0
+Customer Type: Catering
+ORDER 8
+Items Sold: [[Pastry Roll, Topping, Topping], [Pastry Roll, Sauce, Topping]]
+Price of Transaction: $3.25
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $20.25,
+Catering: $107.0
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 18 was $127.25.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Business: 3,
+Casual: 2,
+Catering: 2
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Sausage Roll: 1.0,
+Egg Roll: 7.0,
+Jelly Roll: 15.0,
+Pastry Roll: 25.0,
+Spring Roll: 6.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 19
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 4.0 ]
+[ Egg Roll: 45.0 ]
+[ Pastry Roll: 20.0 ]
+[ Sausage Roll: 45.0 ]
+[ Jelly Roll: 7.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Spring Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 0.0 ]
+[ Egg Roll: 36.0 ]
+[ Pastry Roll: 7.0 ]
+[ Sausage Roll: 35.0 ]
+[ Jelly Roll: 5.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Egg Roll, Filling, Sauce, Topping]]
+Price of Transaction: $2.25
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Egg Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $3.0
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Spring Roll, Filling, Topping, Topping], [Spring Roll, Sauce, Topping, Topping]]
+Price of Transaction: $3.25
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Pastry Roll, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $9.0
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce], [Pastry Roll, Filling], [Pastry Roll, Topping], [Sausage Roll, Filling, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Sauce], [Jelly Roll, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $25.75
+Customer Type: Business
+ORDER 6
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce, Topping]]
+Price of Transaction: $8.75
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Sauce, Sauce], [Sausage Roll, Topping], [Sausage Roll, Filling, Sauce, Sauce, Topping], [Pastry Roll, Topping], [Pastry Roll], [Pastry Roll, Filling, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce], [Pastry Roll, Sauce, Sauce], [Egg Roll, Sauce, Sauce], [Egg Roll, Filling, Sauce, Sauce, Sauce], [Egg Roll, Sauce, Sauce], [Egg Roll, Sauce], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $36.75
+Customer Type: Catering
+ORDER 8
+Items Sold: [[Pastry Roll, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Topping, Topping]]
+Price of Transaction: $4.75
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Pastry Roll, Filling, Sauce, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $33.5,
+Business: $25.75,
+Catering: $36.75
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 19 was $96.0.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Casual: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Egg Roll: 9.0,
+Spring Roll: 4.0,
+Pastry Roll: 13.0,
+Sausage Roll: 10.0,
+Jelly Roll: 2.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 20
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 45.0 ]
+[ Egg Roll: 36.0 ]
+[ Pastry Roll: 7.0 ]
+[ Sausage Roll: 35.0 ]
+[ Jelly Roll: 5.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Jelly Roll.
+Hi, this is the Store Announcer. The store has officially ran out of Pastry Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 35.0 ]
+[ Egg Roll: 25.0 ]
+[ Pastry Roll: 0.0 ]
+[ Sausage Roll: 22.0 ]
+[ Jelly Roll: 0.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Pastry Roll, Filling, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll], [Egg Roll, Sauce], [Egg Roll, Filling, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping, Topping], [Egg Roll], [Egg Roll, Filling], [Jelly Roll, Sauce, Topping], [Jelly Roll, Topping, Topping], [Jelly Roll, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $32.25
+Customer Type: Catering
+ORDER 2
+Items Sold: [[Spring Roll, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $3.5
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Pastry Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Sausage Roll, Topping, Topping], [Spring Roll, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Topping], [Sausage Roll], [Sausage Roll, Filling, Sauce, Sauce, Sauce], [Sausage Roll, Sauce, Sauce], [Sausage Roll, Sauce, Topping], [Spring Roll, Topping], [Pastry Roll, Filling, Topping, Topping], [Egg Roll, Filling, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce], [Sausage Roll]]
+Price of Transaction: $32.75
+Customer Type: Catering
+ORDER 5
+Items Sold: [[Spring Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Egg Roll, Filling, Sauce, Sauce, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $6.25
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Spring Roll, Sauce, Sauce]]
+Price of Transaction: $1.5
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Spring Roll, Sauce, Topping], [Spring Roll, Sauce, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Egg Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $4.75
+Customer Type: Casual
+ORDER 10
+Items Sold: [[Sausage Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Sauce], [Sausage Roll, Filling, Topping]]
+Price of Transaction: $8.25
+Customer Type: Casual
+ORDER 11
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling]]
+Price of Transaction: $5.75
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Catering: $65.0,
+Casual: $37.5
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 20 was $102.5.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS -- 
+Business: 3,
+Casual: 7,
+Catering: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Pastry Roll: 7.0,
+Egg Roll: 11.0,
+Jelly Roll: 5.0,
+Spring Roll: 10.0,
+Sausage Roll: 13.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 21
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 35.0 ]
+[ Egg Roll: 25.0 ]
+[ Pastry Roll: 45.0 ]
+[ Sausage Roll: 22.0 ]
+[ Jelly Roll: 45.0 ]
+--                        --
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 27.0 ]
+[ Egg Roll: 18.0 ]
+[ Pastry Roll: 34.0 ]
+[ Sausage Roll: 10.0 ]
+[ Jelly Roll: 37.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $7.25
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Jelly Roll, Filling], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Sauce, Topping, Topping]]
+Price of Transaction: $8.75
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Spring Roll, Sauce, Topping, Topping]]
+Price of Transaction: $1.5
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Pastry Roll, Sauce, Topping], [Pastry Roll, Sauce, Sauce, Sauce], [Pastry Roll, Sauce, Sauce]]
+Price of Transaction: $6.25
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Pastry Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $3.25
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Spring Roll, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $7.75
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Spring Roll, Sauce, Sauce], [Spring Roll, Filling, Sauce, Topping, Topping]]
+Price of Transaction: $3.75
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Sausage Roll, Filling, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $10.0
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Spring Roll, Sauce, Sauce, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce, Topping], [Pastry Roll, Filling, Topping], [Sausage Roll, Sauce, Topping], [Sausage Roll, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Topping], [Jelly Roll, Sauce]]
+Price of Transaction: $25.25
+Customer Type: Business
+ORDER 10
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce], [Sausage Roll, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce], [Sausage Roll, Sauce, Sauce, Sauce], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce], [Pastry Roll, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Topping], [Egg Roll, Topping], [Egg Roll], [Egg 
+Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $34.75
+Customer Type: Catering
+ORDER 11
+Items Sold: [[Jelly Roll, Filling], [Jelly Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $9.75
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $58.25,
+Business: $25.25,
+Catering: $34.75
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 21 was $118.25.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+None!
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Sausage Roll: 12.0,
+Jelly Roll: 8.0,
+Spring Roll: 8.0,
+Pastry Roll: 11.0,
+Egg Roll: 7.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 22
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 27.0 ]
+[ Egg Roll: 18.0 ]
+[ Pastry Roll: 34.0 ]
+[ Sausage Roll: 10.0 ]
+[ Jelly Roll: 37.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Egg Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 11.0 ]
+[ Egg Roll: 0.0 ]
+[ Pastry Roll: 11.0 ]
+[ Sausage Roll: 1.0 ]
+[ Jelly Roll: 24.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Jelly Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $9.25
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Jelly Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $3.5
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Egg Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Filling], [Egg Roll, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce], [Pastry Roll], [Pastry Roll, Sauce, Topping, Topping], [Pastry Roll, Filling, Topping], [Pastry Roll], [Sausage Roll, Topping, Topping], [Sausage Roll, Sauce, Topping, Topping], [Sausage Roll, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Topping]]
+Price of Transaction: $31.5
+Customer Type: Catering
+ORDER 4
+Items Sold: [[Pastry Roll, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $7.75
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Topping], [Pastry Roll, Filling, Sauce], [Pastry Roll, Sauce, 
+Sauce, Sauce, Topping], [Sausage Roll, Topping, Topping], [Sausage Roll, Sauce, Sauce], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $27.75
+Customer Type: Business
+ORDER 6
+Items Sold: [[Egg Roll, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping], [Egg Roll, Filling, Sauce]]
+Price of Transaction: $5.75
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Egg Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Sauce, Topping]]
+Price of Transaction: $5.25
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Spring Roll, Sauce, Sauce, Topping, Topping], [Pastry Roll], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce], [Spring Roll, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce], [Jelly Roll, Sauce, Sauce, Sauce], [Pastry Roll, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling, Topping], [Jelly Roll], [Pastry Roll], [Spring Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $32.5
+Customer Type: Catering
+ORDER 9
+Items Sold: [[Spring Roll, Sauce, Sauce], [Spring Roll, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Spring Roll, Sauce, Sauce, Sauce, Topping], [Spring Roll, Sauce, Sauce, Sauce], [Jelly Roll, Sauce, Sauce, Sauce], [Jelly Roll, Filling, Topping], [Spring Roll, Filling, Sauce], [Egg Roll, Filling], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce], [Sausage Roll, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Topping, Topping], [Pastry Roll, Topping]]
+Price of Transaction: $36.5
+Customer Type: Catering
+ORDER 10
+Items Sold: [[Pastry Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $3.25
+Customer Type: Casual
+ORDER 11
+Items Sold: [[Spring Roll, Sauce, Sauce], [Spring Roll, Filling, Topping, Topping], [Spring Roll, Filling]]
+Price of Transaction: $4.5
+Customer Type: Casual
+ORDER 12
+Items Sold: [[Egg Roll, Topping, Topping], [Egg Roll, Topping]]
+Price of Transaction: $2.25
+Customer Type: Casual
+ORDER 13
+Items Sold: [[Egg Roll, Topping], [Egg Roll, Filling, Topping, Topping]]
+Price of Transaction: $3.0
+Customer Type: Casual
+ORDER 14
+Items Sold: [[Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Topping]]
+Price of Transaction: $5.75
+Customer Type: Casual
+ORDER 15
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce], [Spring Roll, Filling, Topping]]
+Price of Transaction: $3.75
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $54.0,
+Catering: $100.5, 
+Business: $27.75
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 22 was $182.25.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Catering: 2,
+Business: 2,
+Casual: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Jelly Roll: 13.0, 
+Egg Roll: 18.0,
+Pastry Roll: 23.0,
+Sausage Roll: 9.0,
+Spring Roll: 16.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 23
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 11.0 ]
+[ Egg Roll: 45.0 ]
+[ Pastry Roll: 11.0 ]
+[ Sausage Roll: 1.0 ]
+[ Jelly Roll: 24.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Sausage Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 2.0 ]
+[ Egg Roll: 42.0 ]
+[ Pastry Roll: 6.0 ]
+[ Sausage Roll: 0.0 ]
+[ Jelly Roll: 18.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Spring Roll, Sauce, Sauce, Sauce, Topping], [Spring Roll, Filling, Topping]]
+Price of Transaction: $3.75
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Spring Roll, Sauce, Sauce, Topping, Topping], [Spring Roll]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Spring Roll, Filling, Sauce, Topping], [Spring Roll, Filling], [Spring Roll, Filling, Sauce, Topping, Topping], [Spring Roll, Sauce, Sauce, Sauce], [Spring Roll, Sauce], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Topping, Topping], [Jelly Roll, Filling, Sauce, Topping, Topping], [Jelly Roll, Sauce], [Jelly Roll, Sauce, Sauce], [Pastry Roll, Topping], [Pastry Roll, Filling, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Topping, Topping], 
+[Pastry Roll, Sauce, Sauce]]
+Price of Transaction: $34.25
+Customer Type: Catering
+ORDER 4
+Items Sold: [[Jelly Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $3.75
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Sausage Roll, Sauce, Sauce]]
+Price of Transaction: $2.25
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Egg Roll], [Egg Roll, Filling], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $5.5
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $17.75,
+Catering: $34.25
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 23 was $52.0.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Business: 3,
+Casual: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Spring Roll: 9.0,
+Jelly Roll: 6.0,
+Pastry Roll: 5.0,
+Sausage Roll: 1.0,
+Egg Roll: 3.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 24
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 2.0 ]
+[ Egg Roll: 42.0 ]
+[ Pastry Roll: 6.0 ]
+[ Sausage Roll: 45.0 ]
+[ Jelly Roll: 18.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Spring Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 0.0 ]
+[ Egg Roll: 36.0 ]
+[ Pastry Roll: 1.0 ]
+[ Sausage Roll: 39.0 ]
+[ Jelly Roll: 18.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Egg Roll, Sauce, Topping], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping], [Egg Roll, Filling], [Egg Roll, Filling, Topping], [Egg Roll], [Sausage Roll, Filling, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Sauce, Sauce], [Sausage Roll, Filling, Topping, Topping], [Pastry Roll], [Pastry Roll, Sauce, Sauce, Sauce], [Pastry Roll, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Sauce], [Pastry Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $34.25
+Customer Type: Catering
+ORDER 2
+Items Sold: [[Sausage Roll]]
+Price of Transaction: $1.25
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Egg Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $2.0
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Spring Roll, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $3.5
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Catering: $34.25,
+Casual: $6.75
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 24 was $41.0.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS -- 
+Business: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Egg Roll: 6.0,
+Sausage Roll: 6.0,
+Pastry Roll: 5.0,
+Spring Roll: 2.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 25
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 45.0 ]
+[ Egg Roll: 36.0 ]
+[ Pastry Roll: 1.0 ]
+[ Sausage Roll: 39.0 ]
+[ Jelly Roll: 18.0 ]
+--                        --
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 32.0 ]
+[ Egg Roll: 25.0 ]
+[ Pastry Roll: 1.0 ]
+[ Sausage Roll: 26.0 ]
+[ Jelly Roll: 11.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Egg Roll, Sauce, Sauce, Sauce], [Egg Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Topping, Topping]]
+Price of Transaction: $7.0
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $9.0
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Spring Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $5.0
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Spring Roll, Filling, Sauce]]
+Price of Transaction: $1.75
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Jelly Roll, Filling, Sauce, Sauce, Topping, Topping], [Jelly Roll, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce], [Jelly Roll, Filling, Sauce], [Sausage Roll, Topping, Topping], [Sausage Roll, Sauce, Sauce, Topping], [Sausage Roll, Filling], [Sausage Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce], [Spring Roll, Filling, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Spring Roll, Filling], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $38.5
+Customer Type: Catering
+ORDER 6
+Items Sold: [[Egg Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $3.0
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Egg Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $2.0
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Spring Roll, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce], [Spring Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce], [Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Sauce, Topping], [Spring Roll, Sauce, Sauce], [Egg Roll], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $36.5
+Customer Type: Catering
+ORDER 9
+Items Sold: [[Egg Roll, Filling], [Egg Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Topping, Topping]]
+Price of Transaction: $5.25
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $33.0,
+Catering: $75.0
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 25 was $108.0.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Business: 1,
+Catering: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Egg Roll: 11.0,
+Sausage Roll: 13.0,
+Spring Roll: 13.0,
+Jelly Roll: 7.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 26
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 32.0 ]
+[ Egg Roll: 25.0 ]
+[ Pastry Roll: 1.0 ]
+[ Sausage Roll: 26.0 ]
+[ Jelly Roll: 11.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Pastry Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 14.0 ]
+[ Egg Roll: 11.0 ]
+[ Pastry Roll: 0.0 ]
+[ Sausage Roll: 11.0 ]
+[ Jelly Roll: 1.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Jelly Roll, Sauce, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $9.0
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Spring Roll, Sauce]]
+Price of Transaction: $1.0
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Jelly Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $3.75
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Jelly Roll, Filling, Sauce], [Sausage Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce, Sauce], [Egg Roll, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Topping], [Sausage Roll, Filling, Sauce], [Spring Roll, Filling, Sauce, Sauce], 
+[Egg Roll, Filling, Topping, Topping], [Spring Roll, Filling, Sauce], [Spring Roll], [Spring Roll, Filling, Sauce, Sauce, Topping], [Egg Roll, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Topping], [Spring Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $34.25
+Customer Type: Catering
+ORDER 5
+Items Sold: [[Egg Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce], [Sausage Roll, Filling], [Sausage Roll, Filling, Sauce]]
+Price of Transaction: $7.5
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Egg Roll, Sauce], [Egg Roll, Filling, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce], [Spring Roll, Sauce, Sauce, Sauce], [Sausage Roll], [Egg Roll, Topping, Topping], [Sausage Roll, Filling, Sauce, Topping], [Spring Roll, Filling, Topping, Topping], [Spring Roll, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Topping], [Egg Roll, Topping, Topping], [Sausage Roll, Sauce, Topping], [Spring Roll, Filling, Topping], [Spring Roll, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $27.75
+Customer Type: Catering
+ORDER 8
+Items Sold: [[Pastry Roll, Sauce, Topping, Topping]]
+Price of Transaction: $2.0
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Topping, Topping], [Spring Roll, Sauce, Sauce, Sauce], [Spring Roll, Filling, Sauce, Topping, Topping]]
+Price of Transaction: $7.0
+Customer Type: Casual
+ORDER 10
+Items Sold: [[Jelly Roll, Filling, Sauce], [Egg Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling], [Spring Roll, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Topping], [Jelly Roll, Topping, Topping], [Spring Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Topping, Topping], [Sausage Roll], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Topping], [Egg Roll, Topping, Topping], [Sausage Roll], [Sausage Roll, Filling, Sauce]]
+Price of Transaction: $31.5
+Customer Type: Catering
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $32.75,
+Catering: $93.5
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 26 was $126.25.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Catering: 3,
+Business: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Jelly Roll: 10.0,
+Spring Roll: 18.0,
+Sausage Roll: 15.0, 
+Egg Roll: 14.0,
+Pastry Roll: 1.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 27
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 14.0 ]
+[ Egg Roll: 11.0 ]
+[ Pastry Roll: 45.0 ]
+[ Sausage Roll: 11.0 ]
+[ Jelly Roll: 1.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Jelly Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 4.0 ]
+[ Egg Roll: 4.0 ]
+[ Pastry Roll: 13.0 ]
+[ Sausage Roll: 1.0 ]
+[ Jelly Roll: 0.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Egg Roll, Sauce, Sauce, Sauce, Topping], [Egg Roll, Topping], [Egg Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $6.5
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Sausage Roll, Filling], [Sausage Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $4.75
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Pastry Roll, Sauce], [Pastry Roll, Filling, Sauce], [Spring Roll, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce], [Pastry Roll, Filling, Topping, Topping], [Pastry Roll, Topping, Topping], [Egg Roll, Filling, Sauce, Topping], [Egg Roll, Topping, Topping], [Spring Roll, Filling, Topping], [Pastry Roll, Filling], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce], [Sausage Roll, Filling, Topping, Topping]]
+Price of Transaction: $31.75
+Customer Type: Catering
+ORDER 4
+Items Sold: [[Pastry Roll, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Pastry Roll, Filling], [Pastry Roll, Sauce, Topping, Topping]]
+Price of Transaction: $3.75
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce], [Pastry Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $8.5
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Sausage Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Filling]]
+Price of Transaction: $5.0
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Pastry Roll, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce], [Spring Roll, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping], [Egg Roll, Filling, Sauce], [Pastry Roll, Filling, Sauce, Sauce], [Sausage Roll], [Sausage Roll, Filling], [Pastry Roll, Filling], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $35.0
+Customer Type: Catering
+ORDER 9
+Items Sold: [[Pastry Roll, Sauce, Topping], [Sausage Roll, Sauce, Sauce], [Egg Roll, Filling, Sauce], [Pastry Roll, Sauce], [Pastry Roll, Filling], [Spring Roll, Topping], [Jelly Roll, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Topping], [Spring Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling], [Pastry Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Topping], [Pastry Roll, Sauce, Sauce, Topping, Topping], [Spring Roll, Sauce, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $29.75
+Customer Type: Catering
+ORDER 10
+Items Sold: [[Spring Roll, Filling, Sauce, Topping]]
+Price of Transaction: $2.0
+Customer Type: Casual
+ORDER 11
+Items Sold: [[Spring Roll, Sauce, Topping, Topping]]
+Price of Transaction: $1.5
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $34.5,
+Catering: $96.5
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 27 was $131.0.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Catering: 3,
+Business: 1,
+Casual: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Egg Roll: 7.0,
+Sausage Roll: 10.0,
+Pastry Roll: 32.0,
+Spring Roll: 10.0,
+Jelly Roll: 1.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 28
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 4.0 ]
+[ Egg Roll: 4.0 ]
+[ Pastry Roll: 13.0 ]
+[ Sausage Roll: 1.0 ]
+[ Jelly Roll: 45.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Sausage Roll.
+Hi, this is the Store Announcer. The store has officially ran out of Spring Roll.
+Hi, this is the Store Announcer. The store has officially ran out of Egg Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 0.0 ]
+[ Egg Roll: 0.0 ]
+[ Pastry Roll: 2.0 ]
+[ Sausage Roll: 0.0 ]
+[ Jelly Roll: 15.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Egg Roll, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $2.25
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $4.0
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Jelly Roll, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping], [Jelly Roll], [Jelly Roll, Filling, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce, Topping], [Pastry Roll, Sauce], [Pastry Roll, Filling, Sauce, Topping], [Jelly Roll, Sauce, Sauce, Sauce], [Jelly Roll, Filling, Sauce, Sauce], [Jelly Roll, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce, Sauce], [Jelly Roll, Sauce, Sauce, Sauce], [Jelly Roll, Topping], [Pastry Roll, Filling, Sauce, Topping]]
+Price of Transaction: $40.75
+Customer Type: Catering
+ORDER 4
+Items Sold: [[Jelly Roll, Topping, Topping], [Jelly Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $4.75
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Egg Roll, Filling]]
+Price of Transaction: $1.5
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Pastry Roll, Filling, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling]]
+Price of Transaction: $6.75
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce], [Jelly Roll, Filling, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce], [Jelly Roll, Filling, Sauce, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Filling, Sauce], [Jelly Roll, Filling], [Jelly Roll, Sauce, Sauce], [Jelly Roll, Topping], [Pastry Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Filling, Sauce], [Pastry Roll, Sauce, Topping]]
+Price of Transaction: $41.5
+Customer Type: Catering
+ORDER 8
+Items Sold: [[Jelly Roll, Filling, Sauce, Topping], [Jelly Roll, Filling, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $9.75
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Jelly Roll, Sauce, Topping, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 10
+Items Sold: [[Spring Roll, Filling, Topping, Topping], [Spring Roll, Sauce], [Spring Roll, Filling, Sauce, Topping, Topping]]
+Price of Transaction: $5.0
+Customer Type: Casual
+ORDER 11
+Items Sold: [[Egg Roll, Topping]]
+Price of Transaction: $1.0
+Customer Type: Casual
+ORDER 12
+Items Sold: [[Spring Roll, Filling, Topping, Topping]]
+Price of Transaction: $1.75
+Customer Type: Casual
+ORDER 13
+Items Sold: [[Egg Roll, Filling]]
+Price of Transaction: $1.5
+Customer Type: Casual
+ORDER 14
+Items Sold: [[Jelly Roll, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $5.25
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $46.0,
+Catering: $82.25
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 28 was $128.25.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Casual: 3,
+Catering: 2,
+Business: 2
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Egg Roll: 4.0,
+Sausage Roll: 1.0,
+Jelly Roll: 30.0,
+Pastry Roll: 11.0,
+Spring Roll: 4.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 29
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 45.0 ]
+[ Egg Roll: 45.0 ]
+[ Pastry Roll: 2.0 ]
+[ Sausage Roll: 45.0 ]
+[ Jelly Roll: 15.0 ]
+--                        --
+Hi, this is the Store Announcer. The store has officially ran out of Pastry Roll.
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 36.0 ]
+[ Egg Roll: 36.0 ]
+[ Pastry Roll: 0.0 ]
+[ Sausage Roll: 38.0 ]
+[ Jelly Roll: 8.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Spring Roll, Sauce, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Topping], [Spring Roll], [Egg Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce], [Jelly Roll, Filling, Sauce, Sauce, Sauce, Topping], [Spring Roll, Filling, Topping], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce, Topping], [Spring Roll, Sauce, Sauce], [Egg Roll, Filling], [Egg Roll, Filling, Sauce, Sauce, Sauce], [Egg Roll, Topping, Topping], [Spring Roll, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $34.5
+Customer Type: Catering
+ORDER 2
+Items Sold: [[Jelly Roll, Filling, Sauce, Topping, Topping]]
+Price of Transaction: $3.25
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce], [Egg Roll, Filling], [Egg Roll, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce], [Jelly Roll, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $27.25
+Customer Type: Business
+ORDER 4
+Items Sold: [[Jelly Roll, Filling]]
+Price of Transaction: $2.25
+Customer Type: Casual
+ORDER 5
+Items Sold: [[Sausage Roll, Filling, Topping]]
+Price of Transaction: $2.25
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Spring Roll, Filling], [Spring Roll, Filling, Sauce, Sauce, Topping, Topping]]
+Price of Transaction: $4.0
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Sausage Roll, Filling, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Sauce, Topping]]
+Price of Transaction: $5.75
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Jelly Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $3.25
+Customer Type: Casual
+ORDER 9
+Items Sold: [[Jelly Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $3.0
+Customer Type: Casual
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Catering: $34.5,
+Casual: $23.75,
+Business: $27.25
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 29 was $85.5.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Catering: 1,
+Business: 2,
+Casual: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Spring Roll: 9.0,
+Sausage Roll: 7.0,
+Egg Roll: 9.0,
+Jelly Roll: 7.0,
+Pastry Roll: 2.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+Today is day number - 30
+
+-- START OF DAY INVENTORY --
+[ Spring Roll: 36.0 ]
+[ Egg Roll: 36.0 ]
+[ Pastry Roll: 45.0 ]
+[ Sausage Roll: 38.0 ]
+[ Jelly Roll: 8.0 ]
+--                        --
+--  END OF DAY INVENTORY  --
+[ Spring Roll: 17.0 ]
+[ Egg Roll: 24.0 ]
+[ Pastry Roll: 29.0 ]
+[ Sausage Roll: 21.0 ]
+[ Jelly Roll: 1.0 ]
+--                        --
+
+
+-- EVERY TRANSACTION TODAY --
+ORDER 1
+Items Sold: [[Jelly Roll], [Jelly Roll, Filling, Sauce]]
+Price of Transaction: $4.25
+Customer Type: Casual
+ORDER 2
+Items Sold: [[Sausage Roll, Sauce], [Sausage Roll, Filling, Sauce, Topping, Topping], [Sausage Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $7.75
+Customer Type: Casual
+ORDER 3
+Items Sold: [[Pastry Roll, Filling, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce]]
+Price of Transaction: $5.5
+Customer Type: Casual
+ORDER 4
+Items Sold: [[Pastry Roll, Sauce, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Topping], [Pastry Roll, Filling, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping, Topping], [Egg Roll, Topping], [Egg Roll, Filling, Topping, Topping], [Egg Roll, Sauce, Sauce, Sauce], [Egg Roll], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Spring Roll, Filling, Topping], [Spring Roll, Filling, Sauce, Topping, Topping], [Spring Roll, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $34.25
+Customer Type: Catering
+ORDER 5
+Items Sold: [[Spring Roll, Filling, Sauce, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $8.75
+Customer Type: Casual
+ORDER 6
+Items Sold: [[Jelly Roll, Topping, Topping], [Jelly Roll, Filling, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce]]
+Price of Transaction: $8.75
+Customer Type: Casual
+ORDER 7
+Items Sold: [[Spring Roll, Filling, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping]]
+Price of Transaction: $4.75
+Customer Type: Casual
+ORDER 8
+Items Sold: [[Spring Roll], [Spring Roll, Sauce, Sauce, Sauce, Topping], [Egg Roll, Sauce, Topping, Topping], [Egg Roll, Filling, Topping], [Pastry Roll, Filling, Sauce, Sauce, Topping, Topping], [Pastry Roll, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Sauce], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Jelly Roll, Sauce, Sauce, Sauce, Topping], [Jelly Roll, Filling]]
+Price of Transaction: $23.25
+Customer Type: Business
+ORDER 9
+Items Sold: [[Sausage Roll, Sauce, Sauce, Sauce], [Sausage Roll, Filling, Sauce, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce, Sauce], [Egg Roll, Filling, Topping, Topping], [Sausage Roll, Filling, Topping], [Spring Roll, Topping, Topping], [Pastry Roll, 
+Sauce, Topping, Topping], [Sausage Roll, Filling, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping, Topping], [Egg Roll, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Egg Roll, Filling, Sauce], [Egg Roll, Sauce, Sauce], [Pastry Roll, Filling, Sauce, Sauce, Sauce], [Egg Roll, Filling, Sauce, Sauce, Sauce]]
+Price of Transaction: $36.75
+Customer Type: Catering
+ORDER 10
+Items Sold: [[Sausage Roll, Filling, Topping, Topping]]
+Price of Transaction: $2.5
+Customer Type: Casual
+ORDER 11
+Items Sold: [[Pastry Roll, Sauce, Sauce, Sauce], [Pastry Roll, Topping, Topping], [Pastry Roll, Sauce, Topping, Topping], [Pastry Roll, Filling, Sauce, Sauce, Sauce], [Pastry Roll, Sauce, Topping, Topping], [Spring Roll, Filling, Sauce, Sauce], [Spring Roll, Filling, Sauce, Sauce, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce], [Spring Roll, Filling, Sauce, Topping], [Spring Roll, Filling, Sauce, Sauce], [Sausage Roll, Sauce, Sauce], [Sausage Roll, Filling, Sauce], [Sausage Roll, Sauce, Sauce, Topping, Topping], [Sausage Roll, Sauce, Sauce, Sauce, Topping], [Sausage Roll, Sauce, Topping]]
+Price of Transaction: $35.5
+Customer Type: Catering
+
+
+-- INCOME BY CUSTOMER TYPE BREAKDOWN --
+Casual: $42.25,
+Catering: $106.5,
+Business: $23.25
+
+
+-- INCOME OVERALL TODAY --
+The total income for day 30 was $172.0.
+
+
+-- TOTAL UNFULFILLED FIRST ORDERS --
+Catering: 1
+
+
+-- TOTAL ORDERS OF EACH ROLL TYPE --
+Jelly Roll: 7.0,
+Sausage Roll: 17.0,
+Pastry Roll: 16.0,
+Egg Roll: 12.0,
+Spring Roll: 19.0
+
+
+-- THE STORE DID NOT CLOSE TODAY --
+-----------------------------------------------------------------------------------------
+ALL DAYS SUMMARY
+
+
+TOTAL ROLLS SOLD OVER ALL THE DAYS
+Spring Roll: 298.0,
+Egg Roll: 291.0,
+Pastry Roll: 331.0,
+Sausage Roll: 294.0,
+Jelly Roll: 269.0
+
+
+TOTAL INCOME OVER ALL OF THE DAYS
+$3456.5
+
+
+TOTAL NUMBER OF ROLL OUTAGE IMPACTS
+89
+PS C:\Users\Kyran\Documents\Kyrans Stuff\Github\CSCI-4448\HW3>

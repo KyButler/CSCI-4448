@@ -17,6 +17,9 @@
 ## Text Descriptions
 ### Assumptions
 - If a user asks for an order that can't be fullfilled, log this event. However, any subsequent un-fullfillable orders from the same user, do not log the event. In scenarios where a Casual customer may ask for multiple types of rolls, this could get annyoing for the log, and isn't neccessary since the project guidelines do not say so.
+- Outputs .txt files are in the outputs folder, labelled based on initial inventory.
+- src/main/main.java is the main file.
+- src/test/MyUnitTest.java is the test file.
 
 ### About the Program
 - First off, the OO patterns used:
