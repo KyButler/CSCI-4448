@@ -1,7 +1,6 @@
-# I got docked for not having a gitignore last time.
+# I got docked HW 1 for not having a .gitignore, but it was just in the root 
+# of the repository.
 
-# I have no files to ignore.
+# So here's one, just to have one here too.
 
-# In fact, there is a gitignore in the root of the repo . . .
-
-# I will be in contact.
+# No additional files are being ignored on top of the root gitignore.
