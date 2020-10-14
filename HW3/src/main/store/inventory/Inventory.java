@@ -62,9 +62,6 @@ public class Inventory {
     // and then create a new list to keep track of which items you've
     // done thusfar.
 
-    System.out.print("the TRUE inventory at the beginning of the order thing");
-    this.printInventoryCount();
-
     List<String> satisfiableItems = new ArrayList<String>();
     // for each item in the order
     for (String orderItem : order) {
@@ -86,9 +83,10 @@ public class Inventory {
       // this means if the order can be fully completed as asked, then the order is done,
       // and the inventory is subtracted.
 
-      System.out.println("SUCC");
+      System.out.println("Inventory was good to satisfy purchase!" + order);
     }
     else {
+      System.out.println("Inventory was not good to satisfy purchase." + order);
       for (String satisfiableItem : satisfiableItems){
         for (Item item : items) {
           if (item.getName() == satisfiableItem){
@@ -108,5 +106,9 @@ public class Inventory {
       }
     } 
     return true;
+  }
+
+  public List<Item> getInventory() {
+    return items;
   }
 }

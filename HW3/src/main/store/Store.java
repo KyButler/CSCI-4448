@@ -7,6 +7,8 @@
 
 package main.store;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import main.store.inventory.*;
@@ -52,6 +54,30 @@ public class Store {
 
   public List<String> getOptions() {
     return inventory.getOptions();
+  }
+
+  // create a list of up to 15 total random rolls to help
+  // out the caterer
+  public List<String> helpCaterer() {
+    List <Item> items = this.inventory.getInventory();
+
+    List <String> allItems = new ArrayList<String>();
+
+    for (Item item : items) {
+      for (int i = 0; i < item.getQuantity(); i++){
+        allItems.add(item.getName());
+      }
+    }
+
+    Collections.shuffle(allItems);
+
+    List <String> craftedChoice = new ArrayList<String>();
+
+    for (int i = 0; i < (allItems.size() < 15 ? allItems.size() : 15); i++){
+      craftedChoice.add(allItems.get(i));
+    }
+
+    return craftedChoice;
   }
 
   // TODO: might need customer type for logging

@@ -16,7 +16,12 @@ public class Business implements Customer {
       newOrder.add(option);
       newOrder.add(option);
     }
-    System.out.println("Business customer purchase!" + newOrder);
-    store.satisfiable(newOrder);
+    if (store.satisfiable(newOrder).equals(newOrder)){
+      System.out.println("Business customer successful purchase!" + newOrder);
+    }
+    else{
+      System.out.println("Business customer failed purchase!" + newOrder);
+    };
+
   }
 }

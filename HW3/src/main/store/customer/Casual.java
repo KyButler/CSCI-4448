@@ -15,10 +15,10 @@ public class Casual implements Customer {
     boolean finishedOrder = false;
     List<String> totallyOutOf = new ArrayList<String>();
     List<String> newOrder = new ArrayList<String>();
+    List<String> options = store.getOptions();
 
     while (!finishedOrder) {
       newOrder.clear();
-      List<String> options = store.getOptions();
       String roll = options.get(rand.nextInt(options.size()));
       if (totallyOutOf.size() == options.size()) {
         System.out.println("realistically, this shouldn't happen.");
@@ -65,6 +65,5 @@ public class Casual implements Customer {
       }
     }
     System.out.println("Casual customer successful purchase!" + newOrder);
-    store.printInventoryCount();
   }
 }
