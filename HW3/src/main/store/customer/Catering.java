@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Catering implements Customer {
   @Override
-  public void order(Store store) {
+  public void order(Store store, int day) {
     List<String> options = store.getOptions();
     List<String> newOrder = new ArrayList<String>();
     // pick 3 options, 5 of each type.
@@ -26,16 +26,11 @@ public class Catering implements Customer {
       }
     }
 
-    List<String> satisfiable = store.satisfiable(newOrder);
+    List<String> satisfiable = store.satisfiable(newOrder, day, "Catering");
 
     // if it wasn't successful
     if (!satisfiable.equals(newOrder)) {
-      System.out.println("Catering Customer Purchase successful." + store.satisfiable(store.helpCaterer()));
-    }
-    else {
-      System.out.println("Catering Customer Purchase successful." + newOrder);
-    }
-
-    
+      store.satisfiable(store.helpCaterer(), day, "Catering");
+    } 
   }
 }

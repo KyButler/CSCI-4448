@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Business implements Customer {
   @Override
-  public void order(Store store) {
+  public void order(Store store, int day) {
     List<String> newOrder = new ArrayList<String>();
 
     List<String> options = store.getOptions();
@@ -16,12 +16,6 @@ public class Business implements Customer {
       newOrder.add(option);
       newOrder.add(option);
     }
-    if (store.satisfiable(newOrder).equals(newOrder)){
-      System.out.println("Business customer successful purchase!" + newOrder);
-    }
-    else{
-      System.out.println("Business customer failed purchase!" + newOrder);
-    };
-
+    store.satisfiable(newOrder, day, "Business");
   }
 }

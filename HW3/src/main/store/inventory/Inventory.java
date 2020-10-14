@@ -25,12 +25,24 @@ public class Inventory {
     inventoryLog.add(this.items);
   }
 
-  public void printInventoryCount() {
+  public double getPrice(String itemName) {
     for (Item item : items) {
-      String name = item.getName();
-      double quantity = item.getQuantity();
-      System.out.println(name + "s - " + quantity);
+      if (item.getName() == itemName){
+        return item.getPrice();
+      }
     }
+
+    return 0.0;
+  }
+
+  public double getQuantity(String itemName) {
+    for (Item item : items) {
+      if (item.getName() == itemName){
+        return item.getQuantity();
+      }
+    }
+
+    return 0.0;
   }
 
   // called at the end of every day
@@ -82,11 +94,8 @@ public class Inventory {
     if (order.equals(satisfiableItems)) {
       // this means if the order can be fully completed as asked, then the order is done,
       // and the inventory is subtracted.
-
-      System.out.println("Inventory was good to satisfy purchase!" + order);
     }
     else {
-      System.out.println("Inventory was not good to satisfy purchase." + order);
       for (String satisfiableItem : satisfiableItems){
         for (Item item : items) {
           if (item.getName() == satisfiableItem){
@@ -95,7 +104,6 @@ public class Inventory {
         }
       }
     }
-    this.printInventoryCount();
     return satisfiableItems;
   }
 

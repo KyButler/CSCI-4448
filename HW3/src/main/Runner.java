@@ -7,11 +7,11 @@ import main.store.Store;
 
 public class Runner {
   // list of all of the stores, which allows for as many as you'd want.
-  private Collection<Store> Stores = new ArrayList<Store>();
+  private Collection<Store> stores = new ArrayList<Store>();
 
   protected void go() {
     // TODO: do 30 items and more adding a new store with id 0 and inventory 30.
-    Stores.add(new Store(0, 5));
+    stores.add(new Store(0, 5));
 
     // adding a helper that runs the day at the store.
     DayRunner day = new DayRunner();
@@ -19,6 +19,14 @@ public class Runner {
     // run a day
     // TODO: Change this to 30 days.
     // TODO: Add summary at the end.
-    day.runDay(Stores);
+    for (int i = 1; i < 31; i++) {
+      day.runDay(stores, i);
+    }
+    
+    for (Store store : stores ){
+      store.printSummary();
+    }
+    
+
   }
 }

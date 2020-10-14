@@ -14,7 +14,7 @@ public class DayRunner {
   private Collection<Customer> customers = new ArrayList<Customer>();;
 
   // this is all of the operations that occur on a single day.
-  public void runDay(Collection<Store> stores) {
+  public void runDay(Collection<Store> stores, int day) {
     Random rand = new Random();
 
     // for each store, run a day simulation.
@@ -40,7 +40,7 @@ public class DayRunner {
 
       for (Customer customer : customers) {
         if (store.isOpen()) {
-          customer.order(store);
+          customer.order(store, day);
         }
       }
 
