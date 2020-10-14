@@ -47,14 +47,27 @@ public class Store {
 
   public void restock() {
     inventory.restock();
+    this.isOpen = true;
   }
 
   public List<String> getOptions() {
     return inventory.getOptions();
   }
 
-  public boolean canSatisfyOrder(List<String> frick) {
-    return false;
+  // TODO: might need customer type for logging
+  public List<String> satisfiable(List<String> order) {
+    List<String> satisfiable = inventory.satisfiable(order);
 
+    if (order.equals(satisfiable)) {
+      // TODO: add order log as successful.
+      // remember, we already took out the items in the inventory since we knew
+      // it was successful.
+      this.isOpen = !inventory.isEmpty();
+    }
+    else {
+      // TODO: record why it wasn't satisiable
+    }
+
+    return satisfiable;
   }
 }

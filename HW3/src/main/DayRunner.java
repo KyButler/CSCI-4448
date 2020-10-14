@@ -10,10 +10,12 @@ import main.store.*;
 import main.store.customer.*;
 
 public class DayRunner {
+  private CustomerFactory customerFactory = new CustomerFactory();
+  private Collection<Customer> customers = new ArrayList<Customer>();;
+
   // this is all of the operations that occur on a single day.
   public void runDay(Collection<Store> stores) {
     Random rand = new Random();
-    CustomerFactory customerFactory = new CustomerFactory();
 
     // for each store, run a day simulation.
     for (Store store : stores) {
@@ -22,8 +24,6 @@ public class DayRunner {
       int casualCount = rand.nextInt(12) + 1;
       int businessCount = rand.nextInt(3) + 1;
       int cateringCount = rand.nextInt(3) + 1;
-
-      Collection<Customer> customers = new ArrayList<Customer>();
 
       for (int i = 0; i < casualCount; i++) {
         customers.add(customerFactory.getCustomer("Casual"));
@@ -35,6 +35,7 @@ public class DayRunner {
         customers.add(customerFactory.getCustomer("Catering"));
       }
 
+      // shuffle the list
       Collections.shuffle((List<Customer>) customers);
 
       for (Customer customer : customers) {
@@ -46,6 +47,9 @@ public class DayRunner {
       // restock the roll iff the stock of roll type = 0.
       // this also logs the daily transactions
       store.restock();
+
+      // clears the customer list for the next day.
+      customers.clear();
     }
   }
 }

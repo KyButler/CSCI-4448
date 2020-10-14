@@ -8,7 +8,7 @@ public class Inventory {
 
   private double startingInventory;
 
-  private Collection<Item> items = new ArrayList<Item>();
+  private List<Item> items = new ArrayList<Item>();
   private Collection<Collection<Item>> inventoryLog = new ArrayList<Collection<Item>>();
 
   public Inventory(double startingInventory, String[] items, Double[] prices) {
@@ -54,5 +54,59 @@ public class Inventory {
     }
 
     return options;
+  }
+
+  public List<String> satisfiable(List<String> order) {
+    // to get a list of all the items you can satisfy from an order, 
+    // you have to make a copy that way you can subtract from the list
+    // and then create a new list to keep track of which items you've
+    // done thusfar.
+
+    System.out.print("the TRUE inventory at the beginning of the order thing");
+    this.printInventoryCount();
+
+    List<String> satisfiableItems = new ArrayList<String>();
+    // for each item in the order
+    for (String orderItem : order) {
+      // find the item in the itemsCopy array.
+      for (Item item : items) {
+        if (item.getName() == orderItem) {
+          // if the item quantity is not 0
+          if (item.getQuantity() > 0) {
+            // consume 1 from the copy array and add to success list.
+            satisfiableItems.add(item.getName());
+            item.consumeStock(1);
+          }
+        }
+      }
+    }
+
+    
+    if (order.equals(satisfiableItems)) {
+      // this means if the order can be fully completed as asked, then the order is done,
+      // and the inventory is subtracted.
+
+      System.out.println("SUCC");
+    }
+    else {
+      for (String satisfiableItem : satisfiableItems){
+        for (Item item : items) {
+          if (item.getName() == satisfiableItem){
+            item.addStock(1);
+          }
+        }
+      }
+    }
+    this.printInventoryCount();
+    return satisfiableItems;
+  }
+
+  public boolean isEmpty() {
+    for (Item item : items) {
+      if (item.getQuantity() > 0) {
+        return false;
+      }
+    } 
+    return true;
   }
 }

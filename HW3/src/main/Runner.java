@@ -6,12 +6,12 @@ import java.util.Collection;
 import main.store.Store;
 
 public class Runner {
-  protected void go(){
-    // list of all of the stores, which allows for as many as you'd want.
-    Collection<Store> Stores = new ArrayList<Store>();
+  // list of all of the stores, which allows for as many as you'd want.
+  private Collection<Store> Stores = new ArrayList<Store>();
 
+  protected void go() {
     // adding a new store with id 0 and inventory 30.
-    Stores.add(new Store(0,30));
+    Stores.add(new Store(0, 3));
 
     // adding a helper that runs the day at the store.
     DayRunner day = new DayRunner();
