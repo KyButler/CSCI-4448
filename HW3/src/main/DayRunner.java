@@ -21,6 +21,11 @@ public class DayRunner {
     for (Store store : stores) {
       // find out who 'should' be visiting on a given day.
 
+      System.out.println("Today is day number - " + day + "\n");
+      System.out.println("-- START OF DAY INVENTORY --");
+      store.printInventory();
+      System.out.println("--                        --");
+
       int casualCount = rand.nextInt(12) + 1;
       int businessCount = rand.nextInt(3) + 1;
       int cateringCount = rand.nextInt(3) + 1;
@@ -43,6 +48,28 @@ public class DayRunner {
           customer.order(store, day);
         }
       }
+
+      System.out.println("--  END OF DAY INVENTORY  --");
+      store.printInventory();
+      System.out.println("--                        --");
+      System.out.println("\n");
+      System.out.println("-- EVERY TRANSACTION TODAY --");
+      store.printSummary(day);
+      System.out.println("\n");
+      System.out.println("-- INCOME BY CUSTOMER TYPE BREAKDOWN --");
+      store.printIncomeByCustomerType(day);
+      System.out.println("\n");
+      System.out.println("-- INCOME OVERALL TODAY --");
+      store.printIncomeOverall(day);
+      System.out.println("\n");
+      System.out.println("-- TOTAL UNFULFILLED FIRST ORDERS -- ");
+      store.printRollOutages(day);
+      System.out.println("\n");
+      System.out.println("-- TOTAL ORDERS OF EACH ROLL TYPE --");
+      store.printRollSales(day);
+      System.out.println("\n");
+      System.out.println("-- THE STORE " + (store.isOpen() ? "DID NOT CLOSE" : "DID CLOSE") + " TODAY --");
+      System.out.println("-----------------------------------------------------------------------------------------");
 
       // restock the roll iff the stock of roll type = 0.
       // this also logs the daily transactions

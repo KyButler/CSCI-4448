@@ -20,11 +20,8 @@ public class Transaction {
     return day;
   }
 
-  public List<String> getItems() {
-    for (List<String> roll : items){
-      return roll;
-    }
-    return null;
+  public List<List<String>> getItems() {
+    return items;
   }
 
   public String getCustomerType() {

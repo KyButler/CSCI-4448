@@ -1,10 +1,3 @@
-// Possible TODO: Add enforcement to only allow instantiation given that the stores ID is unique
-// - one way to do this is have a collection of stores, and call a function that sees if any stores
-// have said ID, but there's tons of different ways.
-
-// TODO: StartingInventory might be replaced with a stock() function
-// that way it can get restocked during the day, but doesn't need to
-
 package main.store;
 
 import java.util.ArrayList;
@@ -42,6 +35,10 @@ public class Store {
     this.isOpen = true;
     this.observer = new StoreAnnouncer();
     this.inventory = new Inventory(startingInventory, menu, prices);
+  }
+
+  public void printInventory() {
+    inventory.printInventory();
   }
 
   public boolean isOpen() {
@@ -161,11 +158,13 @@ public class Store {
     }
     else {
       // TODO: record why it wasn't satisiable
+      transactionLog.addEvent(new Event(day, "unsatisfied", customerType));
     }
 
     this.isOpen = !inventory.isEmpty();
     if (inventory.isEmpty()) {
       observer.eventAnnouncment("closed due to no stock");
+      transactionLog.addEvent(new Event(day, "closed", "everyone"));
     }
 
     return satisfiable;
@@ -173,5 +172,29 @@ public class Store {
 
   public void printSummary(){
     transactionLog.printAllTransactions();
+  }
+
+  public void printSummary(int day){
+    transactionLog.printDay(day);
+  }
+
+  public void printIncomeByCustomerType(int day){
+    transactionLog.printIncomeByCustomerType(day);
+  }
+
+  public void printIncomeOverall(int day) {
+    transactionLog.printIncomeOverall(day);
+  }
+
+  public void printRollOutages(int day) {
+    transactionLog.printRollOutages(day);
+  }
+
+  public void printRollSales(int day) {
+    transactionLog.printRollSales(day);
+  }
+
+  public void printEndSummary() {
+    transactionLog.printEndSummary();
   }
 }

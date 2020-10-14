@@ -58,6 +58,12 @@ public class Inventory {
     }
   }
 
+  public void printInventory() {
+    for (Item item : items) {
+      System.out.println("[ " + item.getName() + ": " + item.getQuantity() + " ]");
+    }
+  }
+
   public List<String> getOptions() {
     List<String> options = new ArrayList<String>();
 

@@ -11,22 +11,21 @@ public class Runner {
 
   protected void go() {
     // TODO: do 30 items and more adding a new store with id 0 and inventory 30.
-    stores.add(new Store(0, 5));
+    stores.add(new Store(0, 30));
+    // stores.add(new Store(0, 45));
+    // stores.add(new Store(0, 60));
 
     // adding a helper that runs the day at the store.
     DayRunner day = new DayRunner();
 
     // run a day
-    // TODO: Change this to 30 days.
     // TODO: Add summary at the end.
     for (int i = 1; i < 31; i++) {
       day.runDay(stores, i);
     }
     
-    for (Store store : stores ){
-      store.printSummary();
+    for (Store store : stores){
+      store.printEndSummary();
     }
-    
-
   }
 }
